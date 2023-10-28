@@ -8,7 +8,7 @@ interface features_content_type {
     sub_title: string;
 }
 const features_content:features_content_type = {
-    title: "Core Features",
+    title: "Data Pipeline Features",
     sub_title: "Borem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
 }
 const {title, sub_title} =  features_content

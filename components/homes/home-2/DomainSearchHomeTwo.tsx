@@ -7,7 +7,7 @@ interface domain_content_type {
 }
 // domain content
 const domain_content: domain_content_type = {
-    title: "Search Domain",
+    title: "Facilitate Perfect Data Transfer",
     sm_des: "Ipsum dolor sit amet, consectetur Lorem adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
 }
 const {title, sm_des}  =  domain_content
@@ -16,7 +16,7 @@ const {title, sm_des}  =  domain_content
 const DomainSearchHomeTwo = () => {
     return (
         <>
-            <section className="domain-search-area pt-100 pb-120">
+            <section className="pt-170 pb-40">
                 <div className="container">
                     <div className="row ">
                         <div className="col-xl-6 offset-xl-3">
@@ -26,7 +26,7 @@ const DomainSearchHomeTwo = () => {
                             </div>
                         </div>
                     </div>
-                    <DomainSearchBox /> 
+                    {/* <DomainSearchBox />  */}
                 </div>
             </section>
         </>

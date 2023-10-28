@@ -58,15 +58,26 @@ button:focus,input:focus,input:focus,textarea,textarea:focus{
 .capitalize {
 	text-transform: capitalize;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: normal;
-	color: #000c35;
+	color: #163393;
 	margin-top: 0px;
 	font-style: normal;
 	font-weight: 600;
 	text-transform: normal;
 }
+
+h2 {
+	color: #163393;
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 600;
+	text-transform: normal;
+}
+
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	color: inherit;
 }
@@ -208,7 +219,7 @@ label {
 }
 .btn-soft-border {
 	background: transparent;
-	border: 2px solid #dbdcff;
+	border: 2px solid #002bb7;
 	color: #000c35;
 }
 .btn-soft-border:hover{
@@ -252,7 +263,7 @@ label {
 }
 .btn-share:hover {
 	background: #002bb7;
-	border-color:#002bb7;
+	border-color:rgb(0,77,205);
 	color: #fff;
 	box-shadow: 0px 10px 20px 0px rgba(0, 43, 183, 0.3);
 }

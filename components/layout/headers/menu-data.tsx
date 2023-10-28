@@ -24,12 +24,24 @@ const menu_data:MenuItem[]  = [
   },
   {
     id: 2,
-    title: "Hosting",
+    title: "Uploader",
     link: "/hosting",
     has_dropdown: false,     
   },
   {
     id: 3,
+    title: "Pipeline",
+    link: "/hosting",
+    has_dropdown: false,     
+  },
+  {
+    id: 4,
+    title: "Hosting",
+    link: "/hosting",
+    has_dropdown: false,     
+  },
+  {
+    id: 5,
     title: "Pages +",
     link: "/about",
     has_dropdown: true,
@@ -51,7 +63,7 @@ const menu_data:MenuItem[]  = [
   },
   
   {
-    id: 4,
+    id: 6,
     title: "News +",
     link: "/blog",
     has_dropdown: true,
@@ -61,7 +73,7 @@ const menu_data:MenuItem[]  = [
     ],
   },
   {
-    id: 5,
+    id: 7,
     title: "Contact",
     
     link: "/contact",

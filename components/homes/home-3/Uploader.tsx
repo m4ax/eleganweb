@@ -17,43 +17,43 @@ const core_features_data_3:core_features_data_3_type[] = [
     {
         id: 1,
         icon: feature_icon_1,
-        title: "Sync connector",
+        title: "Select from a variety of data sources",
         features: [
-            "All Major Providers",
-            "Custom Connections",
-            "Scheduled Syncing",
-            "csv, json, pdf & more",
+            "Embeddable checkout",
+            "Custom UI toolkit",
+            "Simplified PCI compliance",
+            "Invoice support",
         ]
     },
     {
         id: 2,
         icon: feature_icon_2,
-        title: "Data Analysis",
+        title: "Better Speed With Built In Full Panel",
         features: [
-            "Messy Data Accepted",
-            "Automatic Schema Mapping",
-            "Advanced Error Handling",
-            "Logical Understanding",
+            "Embeddable checkout",
+            "Custom UI toolkit",
+            "Simplified PCI compliance",
+            "Invoice support",
         ]
     },
     {
         id: 3,
         icon: feature_icon_3,
-        title: "Destination Schema",
+        title: "360 Degree Microsoft 2019 Office Box",
         features: [
-            "Prefilled Schema Suggestions",
-            "Upload Schema",
-            "Intelligient MetaData Identifier",
-            "Advanced Validations",
+            "Embeddable checkout",
+            "Custom UI toolkit",
+            "Simplified PCI compliance",
+            "Invoice support",
         ]
     },
     {
         id: 4,
         icon: feature_icon_4,
-        title: "Auto Mapping",
+        title: "Get Best Plans For More Panel Power",
         features: [
-            "Intelligient Transformations",
-            "Logical Validation",
+            "Embeddable checkout",
+            "Custom UI toolkit",
             "Simplified PCI compliance",
             "Invoice support",
         ]
@@ -61,23 +61,23 @@ const core_features_data_3:core_features_data_3_type[] = [
     {
         id: 5,
         icon: feature_icon_5,
-        title: "AI Suggestions",
+        title: "Fast, Predictable Payouts To Your Bank",
         features: [
-            "Advanced Error Handling",
-            "AI Transformations",
-            "Custom Functions",
-            "Robust Verifiation",
+            "Embeddable checkout",
+            "Custom UI toolkit",
+            "Simplified PCI compliance",
+            "Invoice support",
         ]
     },
     {
         id: 6,
         icon: feature_icon_6,
-        title: "Verification",
+        title: "24×7 Phone, Chat, And Email Support",
         features: [
-            "Address, Phone, Email",
-            "IP Address",
-            "Social Media",
-            "Identity Verification",
+            "Embeddable checkout",
+            "Custom UI toolkit",
+            "Simplified PCI compliance",
+            "Invoice support",
         ]
     },
 ]
@@ -90,12 +90,12 @@ interface core_features_content_type {
 }
 const core_features_content: core_features_content_type = {
     title: "Why Choose Us",
-    title_2: "With Pipeline",
-    sm_des: "Automate a scheduled workflow that cleans and maps fresh data to your desired schema. Get alerted if there is an issue, and fix with zero coding knowledge."
+    title_2: "With Uploader",
+    sm_des: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 }
 const {title, title_2, sm_des} = core_features_content
 
-const CoreFeaturesHomeThree = ({style} : any) => {
+const Uploader = ({style} : any) => {
     return (
         <>
             <section className="core-features-area pt-115 pb-50">
@@ -104,7 +104,7 @@ const CoreFeaturesHomeThree = ({style} : any) => {
                         <div className="col-xl-6 col-lg-8">
                             <div className="section-title mb-30">
 
-                                <h2>{style ? title : title_2} </h2>
+                                <h2>{style ? title : title_2}</h2>
                                 <p>{sm_des}</p>
                             </div>
                         </div>
@@ -138,4 +138,4 @@ const CoreFeaturesHomeThree = ({style} : any) => {
     );
 };
 
-export default CoreFeaturesHomeThree;
+export default Uploader;

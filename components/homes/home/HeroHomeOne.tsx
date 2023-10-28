@@ -7,7 +7,7 @@ interface hero_content_type {
 }
 const hero_content: hero_content_type = {
     bg_img: "/assets/img/slider/slide-bg.png",
-    sub_title: "Augmented Data Migration Is Here",
+    sub_title: "Streamline Any Data Migration Process",
     title: "Hello to Seamless Data Migration",
 }
 const {bg_img, sub_title, title} = hero_content
@@ -48,7 +48,6 @@ const HeroHomeOne = () => {
                         </div>
                     </div>
                 </div>
-
             </section>
         </>
     );

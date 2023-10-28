@@ -13,40 +13,21 @@ import service_img_6 from "../../../public/assets/img/icon/s06.png";
     {
         id: 1,
         img: service_img_1,
-        title: "Shared Hosting",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore.",
+        title: "Data Migration",
+        sm_des: "Set up an automated pipeline to cleanse your data at scale. Utilise our inbuilt functionality, reducing the need to write code.",
     },
     {
         id: 2,
         img: service_img_2,
-        title: "VPS Hosting",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore.",
+        title: "Client Onboarding",
+        sm_des: "It is imperative that this process is as seamless as possible. First impressions count. Increase Data Uplaod success rates. Decrease support tickets. ",
     },
     {
         id: 3,
         img: service_img_3,
-        title: "Reseller Hosting",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore.",
-    },
-    {
-        id: 4,
-        img: service_img_4,
-        title: "Cloud Hosting",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore.",
-    },
-    {
-        id: 5,
-        img: service_img_5,
-        title: "Dedicated Hosting",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore.",
-    },
-    {
-        id: 5,
-        img: service_img_6,
-        title: "Domain Name",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore.",
-    },
-    
+        title: "Data Cleansing",
+        sm_des: "Utilise our No Code solution to cleaning your data. This includes logical validation & robust verifiation. Ensuring the data you work with is as accurate as possible.",
+    }
  ]
 
  interface service_content_type {

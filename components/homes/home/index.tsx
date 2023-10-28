@@ -1,6 +1,6 @@
 import HeaderOne from "../../layout/headers/header";
 import HeroHomeOne from "./HeroHomeOne";
-import DomainSearch from "./DomainSearchHomeOne";
+import DomainSearchHomeTwo from "../home-2/DomainSearchHomeTwo";
 import PricingHomeOne from "./PricingHomeOne";
 import ServicesHomeOne from "./ServicesHomeOne";
 import FAQHomeOne from "./FAQHomeOne";
@@ -14,6 +14,9 @@ import SubscriptinHomeThree from "../home-3/SubscriptinHomeThree";
 import IntegrationsHomeThree from "../home-3/IntegrationsHomeThree";
 import MakeBusinessHomeTwo from "../home-2/MakeBusinessHomeTwo";
 import CoreFeaturesHomeTwo from "../home-2/CoreFeaturesHomeTwo";
+import Product from "./product";
+import Uploader from "../home-3/Uploader"
+import Secruity from "../home-2/Secruity";
 
 const HomeOne = () => {
   return (
@@ -21,16 +24,19 @@ const HomeOne = () => {
       <HeaderOne />
       <main>
         <HeroHomeOne />
-        <DomainSearch />
-        <ServicesHomeOne />
+        <DomainSearchHomeTwo />
         <CoreFeaturesHomeThree />
+        <Secruity />
+        <Uploader />
         <CoreFeaturesHomeTwo />
         <SubscriptinHomeThree />
         <PricingHomeOne />
+        <Product />
         <MakeBusinessHomeTwo />
         <FAQHomeOne />
         <IntegrationsHomeThree />
         <ChoseAreaHomeOne />
+        <ServicesHomeOne />
         <TestimonailHomeOne />
         <NewsFeedHomeOne />
         <BrandHomeOne />
