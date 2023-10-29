@@ -50,7 +50,7 @@ const core_features_data_3:core_features_data_3_type[] = [
     {
         id: 4,
         icon: feature_icon_4,
-        title: "Auto Mapping",
+        title: "AI Mapping",
         features: [
             "Intelligient Transformations",
             "Logical Validation",
@@ -105,7 +105,7 @@ const CoreFeaturesHomeThree = ({style} : any) => {
                             <div className="section-title mb-30">
 
                                 <h2>{style ? title : title_2} </h2>
-                                <p>{sm_des}</p>
+                                {/* <p>{sm_des}</p> */}
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-4">

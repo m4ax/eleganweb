@@ -78,6 +78,16 @@ h2 {
 	text-transform: normal;
 }
 
+.sub {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	color: #7d859f;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 600;
+	text-transform: normal;
+}
+
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	color: inherit;
 }

@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 
-import integrations_img_1 from "../../../public/assets/img/icon/ints.png";
+import integrations_img_1 from "../../../public/assets/img/icon/int2.png";
 import integrations_img_2 from "../../../public/assets/img/icon/int1.png";
 import integrations_img_3 from "../../../public/assets/img/icon/int3.png";
 import integrations_img_4 from "../../../public/assets/img/icon/int4.png";
@@ -31,9 +31,9 @@ const IntegrationsHomeThree = () => {
                     <div className="row">
                       <div className="col-xl-6 offset-xl-3">
                             <div className="faq-wrapper mb-30">
-                                <div className="section-title section-title-white text-center mb-70">
+                                <div className="section-title section-title-white text-center mb-100">
                                      <h2>Integrations</h2>
-                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                      <p>Just some of the integrations we offer. </p>
                                 </div>
                             </div>
                         </div>

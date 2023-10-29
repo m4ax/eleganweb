@@ -12,9 +12,9 @@ const Product = () => {
                         <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
                             <div className="section-title text-center mb-70">
                                 <h2>AI Suggestions</h2>
-                                <p>Based on your defined schema, we'll make suggestions on how to 
+                                {/* <p>Based on your defined schema, we'll make suggestions on how to 
                                     achieve your end goal. The more data that comes in, the better we'll
-                                    get at making suggestions.</p>
+                                    get at making suggestions.</p> */}
                             </div>
                         </div>
                     </div>

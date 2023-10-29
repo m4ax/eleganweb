@@ -29,17 +29,15 @@ const HomeOne = () => {
         <Secruity />
         <Uploader />
         <CoreFeaturesHomeTwo />
-        <SubscriptinHomeThree />
-        <PricingHomeOne />
-        <Product />
-        <MakeBusinessHomeTwo />
-        <FAQHomeOne />
+        {/* <SubscriptinHomeThree /> */}
+        {/* <PricingHomeOne /> */}
+        {/* <Product /> */}
         <IntegrationsHomeThree />
         <ChoseAreaHomeOne />
-        <ServicesHomeOne />
-        <TestimonailHomeOne />
-        <NewsFeedHomeOne />
-        <BrandHomeOne />
+        {/* <MakeBusinessHomeTwo /> */}
+        {/* <TestimonailHomeOne /> */}
+        {/* <NewsFeedHomeOne /> */}
+        {/* <BrandHomeOne /> */}
       </main>
       <FooterOne />
     </>

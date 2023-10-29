@@ -16,68 +16,35 @@ interface core_features_data_3_type {
 const core_features_data_3:core_features_data_3_type[] = [
     {
         id: 1,
-        icon: feature_icon_1,
-        title: "Select from a variety of data sources",
+        icon: feature_icon_3,
+        title: "Customer Upload",
         features: [
-            "Embeddable checkout",
-            "Custom UI toolkit",
-            "Simplified PCI compliance",
-            "Invoice support",
+            "White Labeling",
+            "Unlimited File Size",
+            "All Major Connections",
+            "Control Schema",
         ]
     },
     {
         id: 2,
-        icon: feature_icon_2,
-        title: "Better Speed With Built In Full Panel",
+        icon: feature_icon_4,
+        title: "AI Mapping",
         features: [
-            "Embeddable checkout",
-            "Custom UI toolkit",
-            "Simplified PCI compliance",
-            "Invoice support",
+            "Accept Any Schema",
+            "Auto Transformation",
+            "Auto Fix Simple Errors",
+            "Auto Format",
         ]
     },
     {
         id: 3,
-        icon: feature_icon_3,
-        title: "360 Degree Microsoft 2019 Office Box",
-        features: [
-            "Embeddable checkout",
-            "Custom UI toolkit",
-            "Simplified PCI compliance",
-            "Invoice support",
-        ]
-    },
-    {
-        id: 4,
-        icon: feature_icon_4,
-        title: "Get Best Plans For More Panel Power",
-        features: [
-            "Embeddable checkout",
-            "Custom UI toolkit",
-            "Simplified PCI compliance",
-            "Invoice support",
-        ]
-    },
-    {
-        id: 5,
         icon: feature_icon_5,
-        title: "Fast, Predictable Payouts To Your Bank",
+        title: "AI Error Handling",
         features: [
-            "Embeddable checkout",
-            "Custom UI toolkit",
-            "Simplified PCI compliance",
-            "Invoice support",
-        ]
-    },
-    {
-        id: 6,
-        icon: feature_icon_6,
-        title: "24×7 Phone, Chat, And Email Support",
-        features: [
-            "Embeddable checkout",
-            "Custom UI toolkit",
-            "Simplified PCI compliance",
-            "Invoice support",
+            "AI Suggestions",
+            "Bulk Error Handling",
+            "Exact Error Messages",
+            "No Dev Self Service",
         ]
     },
 ]
@@ -100,12 +67,12 @@ const Uploader = ({style} : any) => {
         <>
             <section className="core-features-area pt-115 pb-50">
                 <div className="container">
-                    <div className="row align-items-center mb-40">
+                    <div className="row align-items-center mb-100">
                         <div className="col-xl-6 col-lg-8">
-                            <div className="section-title mb-30">
+                            <div className="section-title mb-50">
 
                                 <h2>{style ? title : title_2}</h2>
-                                <p>{sm_des}</p>
+                                {/* <p>{sm_des}</p> */}
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-4">
@@ -114,7 +81,9 @@ const Uploader = ({style} : any) => {
                             </div>
                         </div>
                     </div>
+                    <div className="mb-100">
                     <Image src={product1} className="img-fluid mb-100" alt="AI Data Cleaning Tool Screenshot"/>
+                    </div>
                     <div className="row mx-auto">
                         {core_features_data_3.map((item, i) => 
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6">

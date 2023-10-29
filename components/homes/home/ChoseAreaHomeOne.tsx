@@ -21,24 +21,24 @@ const chose_data:chose_data_type[] = [
         active: "",
         sirial_no: "01",
         icon: chose_icon_1,
-        title: "Data Migration",
-        info: "PioHosting flexible Managed Backup Solutions will help simplify the protection of your data.",
+        title: "Secruity",
+        info: "Your Data Saftey is our main priority.",
     },
     {
         id: 2,
         active: "active",
         sirial_no: "02",
         icon: chose_icon_2,
-        title: "DDoS Protection",
-        info: "PioHosting flexible Managed Backup Solutions will help simplify the protection of your data.",
+        title: "Verification",
+        info: "We care about data quality.",
     },
     {
         id: 3,
         active: "",
         sirial_no: "03",
         icon: chose_icon_3,
-        title: "Data Security",
-        info: "PioHosting flexible Managed Backup Solutions will help simplify the protection of your data.",
+        title: "Augmented",
+        info: "AI Solutions for any migration operation.",
     },
 ]
 const ChoseAreaHomeOne = () => {
@@ -55,8 +55,8 @@ const ChoseAreaHomeOne = () => {
                         <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
                             <div className="section-title text-center mb-70">
                                 <h2>Why Choose Us?</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                                {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua.</p> */}
                             </div>
                         </div>
                     </div>

@@ -7,7 +7,7 @@ interface domain_content_type {
 }
 // domain content
 const domain_content: domain_content_type = {
-    title: "We Don't Need to Touch Your Data",
+    title: "Eradicate Painful Data Onboarding",
     sm_des: "Ipsum dolor sit amet, consectetur Lorem adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
 }
 const {title, sm_des}  =  domain_content
@@ -22,7 +22,7 @@ const Secruity = () => {
                         <div className="col-xl-6 offset-xl-3">
                             <div className="section-title text-center mb-75">
                                 <h2>{title}</h2>
-                                <p>{sm_des}</p>
+                                {/* <p>{sm_des}</p> */}
                             </div>
                         </div>
                     </div>

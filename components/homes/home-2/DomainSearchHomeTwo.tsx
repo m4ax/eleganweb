@@ -22,7 +22,7 @@ const DomainSearchHomeTwo = () => {
                         <div className="col-xl-6 offset-xl-3">
                             <div className="section-title text-center mb-75">
                                 <h2>{title}</h2>
-                                <p>{sm_des}</p>
+                                {/* <p>{sm_des}</p> */}
                             </div>
                         </div>
                     </div>
