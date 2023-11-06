@@ -6,26 +6,24 @@ interface about_content_type {
 }
 
 const about_content: about_content_type = {
-    sub_title: "About Us",
-    title: "Meet With Our Alive Cool Services.",
-    title_2: "Meet With Our Alive Cool Services.",
-    sm_des: <>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</>
+    sub_title: "Importer",
+    title: "Streamline your onboarding process.",
+    title_2: "We've already done the hard work",
+    sm_des: <>Elevate your customer onboarding experience to new heights. Our cutting-edge solution transforms the complex data migration journey into a streamlined, user-friendly process. 
+    Empower your customers with a hassle-free setup, ensuring their first interaction is positive and productive. 
+    With our intelligent automation, you can guarantee a swift, accurate, and satisfying onboarding that not only impresses but also retains. 
+    Say goodbye to convoluted procedures and welcome a new era of customer satisfaction and loyalty.</>
 }
 const {sub_title, title, title_2, sm_des} = about_content
 const AboutUsArea = () => {
     return (
         <>
-            <div className="about-us-area pt-120 pb-90" style={{backgroundImage: `url(/assets/img/bg/about-bg.jpg)`}}>
+            <div className="about-us-area pb-10">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-6 col-lg-8">
-                            <div className="about-wrapper mb-30 wow fadeIn" data-wow-delay="0.3s">
+                            <div className="about-wrapper mb-50 wow fadeIn" data-wow-delay="0.3s">
                             <div className="section-header">
-                                <span>{sub_title}</span>
                                 <h2>{title}</h2>
                                 <h4>{title_2}</h4>
                                 <p>{sm_des}</p>

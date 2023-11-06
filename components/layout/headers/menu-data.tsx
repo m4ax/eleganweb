@@ -35,12 +35,6 @@ const menu_data:MenuItem[]  = [
     has_dropdown: false,     
   },
   {
-    id: 4,
-    title: "Hosting",
-    link: "/hosting",
-    has_dropdown: false,     
-  },
-  {
     id: 5,
     title: "Pages +",
     link: "/about",
@@ -64,7 +58,7 @@ const menu_data:MenuItem[]  = [
   
   {
     id: 6,
-    title: "News +",
+    title: "News",
     link: "/blog",
     has_dropdown: true,
     sub_menus: [

@@ -10,27 +10,27 @@ interface subscription_data_type {
 const subscription_data: subscription_data_type[] = [
     {
         id: 1, 
-        title: "Recurring Subscriptions And Invoicing",
-        sm_des: "Subscriptions and invoicing with auto-reconciliation and smart recovery tools. Free for your first $1 million recurring charges.",
-        btn_text: "Billing",
+        title: "Make Onboarding Easy",
+        sm_des: "First impressions count. Utilise our importer to make it easy for your customers to come aboard, no matter the structure of their legacy data.",
+        btn_text: "Contact Us",
     },
     {
         id: 2, 
-        title: "Payments For Platforms And Marketplaces",
-        sm_des: "Subscriptions and invoicing with auto-reconciliation and smart recovery tools. Free for your first $1 million recurring charges.",
+        title: "Automate Transformations",
+        sm_des: "We have seen failure rates halved. Instead of customers needing to manual manipulate their data elsewhere, let them do it directly in the upload process.",
         btn_text: "Connect",
     },
     {
         id: 3, 
-        title: "Machine Learning Fraud, Built Into PioHost",
-        sm_des: "Subscriptions and invoicing with auto-reconciliation and smart recovery tools. Free for your first $1 million recurring charges.",
+        title: "Reduce Onboarding Costs",
+        sm_des: "Slow migration costs you money. Our importer reduces the time and effort required to onboard customers, saving you money and increasing your margins",
         btn_text: "Billing",
     },
 ]
 const SubscriptinHomeThree = () => {
     return (
         <>
-           <section className="subscriptin-area gray-bg pt-120 pb-90">
+           <section className="subscriptin-area gray-bg pt-120 pb-90 justify-content-center text-center">
               <div className="container">
                 <div className="row">
                     {subscription_data.map((item, i)  => 
@@ -40,9 +40,9 @@ const SubscriptinHomeThree = () => {
                                     <h4>{item.title}</h4>
                                     <p>{item.sm_des}</p>
                                     <div className="subscriptin-btn">
-                                        <a href="#" className="btn btn-three">
+                                        {/* <a href="#" className="btn btn-three">
                                             <i className="fal fa-money-bill"></i>{item.btn_text}
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             </div>

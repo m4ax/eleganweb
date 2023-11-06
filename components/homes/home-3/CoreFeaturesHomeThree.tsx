@@ -102,7 +102,7 @@ const CoreFeaturesHomeThree = ({style} : any) => {
                 <div className="container">
                     <div className="row align-items-center mb-40">
                         <div className="col-xl-6 col-lg-8">
-                            <div className="section-title mb-30">
+                            <div className="section-title mb-50">
 
                                 <h2>{style ? title : title_2} </h2>
                                 {/* <p>{sm_des}</p> */}
@@ -115,7 +115,7 @@ const CoreFeaturesHomeThree = ({style} : any) => {
                         </div>
                     </div>
                     <Image src={product1} className="img-fluid mb-100" alt="AI Data Cleaning Tool Screenshot"/>
-                    <div className="row mx-auto">
+                    {/* <div className="row mx-auto">
                         {core_features_data_3.map((item, i) => 
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6">
                                 <div className="services-box style_3 mb-60 wow fadeInUp p-3" data-wow-delay="0.3s">
@@ -131,7 +131,7 @@ const CoreFeaturesHomeThree = ({style} : any) => {
                                 </div>
                             </div>                        
                         )}
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </>

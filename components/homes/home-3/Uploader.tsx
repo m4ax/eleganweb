@@ -16,35 +16,68 @@ interface core_features_data_3_type {
 const core_features_data_3:core_features_data_3_type[] = [
     {
         id: 1,
-        icon: feature_icon_3,
-        title: "Customer Upload",
+        icon: feature_icon_1,
+        title: "Sync connector",
         features: [
-            "White Labeling",
-            "Unlimited File Size",
-            "All Major Connections",
-            "Control Schema",
+            "All Major Providers",
+            "Custom Connections",
+            "Scheduled Syncing",
+            "csv, json, pdf & more",
         ]
     },
     {
         id: 2,
-        icon: feature_icon_4,
-        title: "AI Mapping",
+        icon: feature_icon_2,
+        title: "Data Analysis",
         features: [
-            "Accept Any Schema",
-            "Auto Transformation",
-            "Auto Fix Simple Errors",
-            "Auto Format",
+            "Messy Data Accepted",
+            "Automatic Schema Mapping",
+            "Advanced Error Handling",
+            "Logical Understanding",
         ]
     },
     {
         id: 3,
-        icon: feature_icon_5,
-        title: "AI Error Handling",
+        icon: feature_icon_3,
+        title: "Destination Schema",
         features: [
-            "AI Suggestions",
-            "Bulk Error Handling",
-            "Exact Error Messages",
-            "No Dev Self Service",
+            "Prefilled Schema Suggestions",
+            "Upload Schema",
+            "Intelligient MetaData Identifier",
+            "Advanced Validations",
+        ]
+    },
+    {
+        id: 4,
+        icon: feature_icon_4,
+        title: "AI Mapping",
+        features: [
+            "Intelligient Transformations",
+            "Logical Validation",
+            "Simplified PCI compliance",
+            "Invoice support",
+        ]
+    },
+    {
+        id: 5,
+        icon: feature_icon_5,
+        title: "AI Suggestions",
+        features: [
+            "Advanced Error Handling",
+            "AI Transformations",
+            "Custom Functions",
+            "Robust Verifiation",
+        ]
+    },
+    {
+        id: 6,
+        icon: feature_icon_6,
+        title: "Verification",
+        features: [
+            "Address, Phone, Email",
+            "IP Address",
+            "Social Media",
+            "Identity Verification",
         ]
     },
 ]
@@ -66,7 +99,7 @@ const Uploader = ({style} : any) => {
     return (
         <>
             <section className="core-features-area pt-115 pb-50">
-                <div className="container">
+                <div className="container justify-content-center">
                     <div className="row align-items-center mb-100">
                         <div className="col-xl-6 col-lg-8">
                             <div className="section-title mb-50">

@@ -1,17 +1,17 @@
 
 import React from 'react';
-import HeaderTwo from './../layout/headers/header-2';
 import Breadcrumb from '../common/breadcrumbs/breadcrumb';
 import AboutUsArea from './AboutUsArea';
 import CoreFeaturesHomeThree from '../homes/home-3/CoreFeaturesHomeThree';
 import OurTeam from './OurTeam';
 import OurFaqArea from './OurFaqArea';
 import FooterOne from '../layout/footers/FooterOne';
+import HeaderOne from '../layout/headers/header';
 
 const About = () => {
     return (
         <>
-            <HeaderTwo style={true} />
+            <HeaderOne />
             <main>
                 <Breadcrumb top_title="About Us"  title='About' />
                 <AboutUsArea />

@@ -28,12 +28,13 @@ const HomeOne = () => {
         <CoreFeaturesHomeThree />
         <Secruity />
         <Uploader />
+        <IntegrationsHomeThree />
         <CoreFeaturesHomeTwo />
         {/* <SubscriptinHomeThree /> */}
         {/* <PricingHomeOne /> */}
         {/* <Product /> */}
-        <IntegrationsHomeThree />
-        <ChoseAreaHomeOne />
+
+        {/* <ChoseAreaHomeOne /> */}
         {/* <MakeBusinessHomeTwo /> */}
         {/* <TestimonailHomeOne /> */}
         {/* <NewsFeedHomeOne /> */}
