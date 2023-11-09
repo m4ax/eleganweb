@@ -30,7 +30,7 @@ const HomeOne = () => {
         <Secruity />
         <Uploader />
         <IntegrationsHomeThree />
-        <Punchline line1="It's Simple" line2="It's" />
+        <Punchline line1="It's Simple" line2="It's Seamless" />
         {/* <SubscriptinHomeThree /> */}
         {/* <PricingHomeOne /> */}
         {/* <Product /> */}

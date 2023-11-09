@@ -18,9 +18,9 @@ const AboutUsArea = () => {
     return (
         <>
             <div className="about-us-area pb-10">
-                <div className="container">
+                <div className="container text-right">
                     <div className="row">
-                        <div className="col-xl-6 col-lg-8">
+                        <div className="col-xl-6 offset-xl-6 col-lg-8 offset-lg-4">
                             <div className="about-wrapper mb-50 wow fadeIn" data-wow-delay="0.3s">
                             <div className="section-header">
                                 <h2>{title}</h2>

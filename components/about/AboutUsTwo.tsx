@@ -22,6 +22,10 @@ const about_content: about_content_type = {
 
 const {sub_title, title, title_2, sm_des} = about_content
 const AboutUsArea = () => {
+
+
+
+    
     return (
         <>
             <div className="about-us-area pt-10 pb-40">

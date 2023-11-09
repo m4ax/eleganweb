@@ -12,6 +12,8 @@ import ServicesHomeOne from '../homes/home/ServicesHomeOne';
 import SubscriptinHomeThree from '../homes/home-3/SubscriptinHomeThree';
 import HeaderOne from '../layout/headers/header';
 import Punchline from '../homes/home/Punchline';
+import FollowUp from '../../components/homes/home/FollowUp'
+import Try from './Try'
 
 const Hosting = () => {
     return (
@@ -19,8 +21,10 @@ const Hosting = () => {
             <HeaderOne />
             <main>
                 <Breadcrumb  top_title="Data Importer" title="Onboarding Solutions" />
-                <ServicesHomeOne />
+                <Punchline line1="Fix Your Customer Onboarding" line2="" />
                 <AboutUsArea />
+                <ServicesHomeOne />
+                <Try />
                 <SubscriptinHomeThree />
                 <AboutUsTwo />
                 {/* <PriceArea /> */}

@@ -12,37 +12,37 @@ import service_img_5 from "../../public/assets/img/icon/s05.png";
     {
         id: 1,
         img: service_img_1,
-        title: "Easy Migration",
+        title: "Migration Cost",
         sm_des: "Self-service minimise data engineer involvement.",
     },
     {
         id: 2,
         img: service_img_2,
-        title: "Auto Schema",
+        title: "AI Driven",
         sm_des: "AI makes it easy for your customer to come aboard.",
     },
     {
         id: 3,
         img: service_img_1,
-        title: "AI Suggestions",
+        title: "Migration Speed",
         sm_des: "Error handling automation.",
     },
     {
         id: 3,
         img: service_img_1,
-        title: "Scalability",
+        title: "Robust Validation",
         sm_des: "Migrate, Clean, Validate - billions of rows.",
     },
     {
         id: 2,
         img: service_img_5,
-        title: "Migration Time",
+        title: "Deep Verification",
         sm_des: "We've already done the hardwork. Plus, no maintanence.",
     },
     {
         id: 3,
         img: service_img_1,
-        title: "Migration Cost",
+        title: "Painless Solution",
         sm_des: "We've already done the hardwork. Plus, no maintanence.",
     }
  ]

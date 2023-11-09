@@ -31,7 +31,7 @@ const menu_data:MenuItem[]  = [
   {
     id: 3,
     title: "Pipeline",
-    link: "/hosting",
+    link: "/pipeline",
     has_dropdown: false,     
   },
   {

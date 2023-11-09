@@ -14,7 +14,6 @@ const VideoPopup = ({
         // autoplay
         isOpen={isVideoOpen}
         videoId={videoId}
-        onClose={() => setIsVideoOpen(false)}
       />
     </>
   );
