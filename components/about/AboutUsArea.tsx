@@ -9,10 +9,9 @@ const about_content: about_content_type = {
     sub_title: "Importer",
     title: "Streamline your onboarding process.",
     title_2: "We've already done the hard work",
-    sm_des: <>Elevate your customer onboarding experience to new heights. Our cutting-edge solution transforms the complex data migration journey into a streamlined, user-friendly process. 
-    Empower your customers with a hassle-free setup, ensuring their first interaction is positive and productive. 
-    With our intelligent automation, you can guarantee a swift, accurate, and satisfying onboarding that not only impresses but also retains. 
-    Say goodbye to convoluted procedures and welcome a new era of customer satisfaction and loyalty.</>
+    sm_des: <>Improve your customer onboarding with our solution that simplifies data migration. Provide a smooth setup process for a great first impression. 
+    Our automated system ensures a quick and accurate onboarding experience, enhancing customer satisfaction and loyalty. 
+    Streamline your procedures for better results.</>
 }
 const {sub_title, title, title_2, sm_des} = about_content
 const AboutUsArea = () => {

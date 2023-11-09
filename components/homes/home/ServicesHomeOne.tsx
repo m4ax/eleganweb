@@ -65,18 +65,20 @@ const ServicesHomeOne = () => {
             <section className="services-area pt-115 pb-95">
                 <div className="container">
                     <div className="row align-items-center mb-40">
-                        <div className="col-xl-6 col-lg-8">
-                            <div className="section-title mb-30">
+                        <div className="col-12">
+                            <div className="section-title text-center mb-30">
                                 <h2>{title}</h2>
                                 {/* <p>{sub_title}</p> */}
                             </div>
                         </div>
-                        <div className="col-xl-6 col-lg-4">
+                        
+                        {/* <div className="col-xl-6 col-lg-4">
                             <div className="section-link text-left text-lg-right mb-30">
                                 <a href="#" className="btn btn-soft-border">Learn More</a>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
+
                     <div className="row pt-50">
                         {services_data.map((item, i) => 
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6">

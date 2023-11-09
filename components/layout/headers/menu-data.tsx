@@ -25,7 +25,7 @@ const menu_data:MenuItem[]  = [
   {
     id: 2,
     title: "Uploader",
-    link: "/hosting",
+    link: "/uploader",
     has_dropdown: false,     
   },
   {

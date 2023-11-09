@@ -39,11 +39,11 @@ const core_features_data_3:core_features_data_3_type[] = [
     {
         id: 3,
         icon: feature_icon_3,
-        title: "Destination Schema",
+        title: "Output Schema",
         features: [
-            "Prefilled Schema Suggestions",
+            "Auto Schema",
             "Upload Schema",
-            "Intelligient MetaData Identifier",
+            "AI Metadata Identifier",
             "Advanced Validations",
         ]
     },
@@ -121,10 +121,10 @@ const Uploader = ({style} : any) => {
                         {core_features_data_3.map((item, i) => 
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6">
                                 <div className="services-box style_3 mb-60 wow fadeInUp p-3" data-wow-delay="0.3s">
-                                    <div className="services-icon mb-35">
+                                    <div className="services-icon mb-35 " style={{ textAlign: 'center' }}>
                                         <Image src={item.icon} alt="theme-pure" />
                                     </div>
-                                    <div className="services-content service-content-three ">
+                                    <div className="services-content service-content-three  ">
                                         <h4>{item.title}</h4>
                                         <ul>
                                             {item.features.map((feature, index ) => <li key={index}>{feature}</li>)} 

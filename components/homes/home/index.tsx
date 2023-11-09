@@ -15,6 +15,7 @@ import IntegrationsHomeThree from "../home-3/IntegrationsHomeThree";
 import MakeBusinessHomeTwo from "../home-2/MakeBusinessHomeTwo";
 import CoreFeaturesHomeTwo from "../home-2/CoreFeaturesHomeTwo";
 import Product from "./product";
+import Punchline from "./Punchline";
 import Uploader from "../home-3/Uploader"
 import Secruity from "../home-2/Secruity";
 
@@ -29,7 +30,7 @@ const HomeOne = () => {
         <Secruity />
         <Uploader />
         <IntegrationsHomeThree />
-        <CoreFeaturesHomeTwo />
+        <Punchline line1="It's Simple" line2="It's" />
         {/* <SubscriptinHomeThree /> */}
         {/* <PricingHomeOne /> */}
         {/* <Product /> */}

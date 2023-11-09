@@ -1,8 +1,8 @@
 import Breadcrumb from "../common/breadcrumbs/breadcrumb";
 import ChoseAreaHomeOne from "../homes/home/ChoseAreaHomeOne";
 import TestimonailHomeOne from "../homes/home/TestimonailHomeOne";
-import CoreFeatures from "../hosting/CoreFeatures";
-import PriceArea from "../hosting/PriceArea";
+import CoreFeatures from "../uploader/CoreFeatures";
+import PriceArea from "../uploader/PriceArea";
 import FooterOne from "../layout/footers/FooterOne";
 import HeaderTwo from "../layout/headers/header-2";
 

@@ -1,5 +1,5 @@
 import ChoseAreaHomeOne from "../homes/home/ChoseAreaHomeOne";
-import PriceArea from "../hosting/PriceArea";
+import PriceArea from "../uploader/PriceArea";
 import FooterOne from "../layout/footers/FooterOne";
 import HeaderTwo from "../layout/headers/header-2";
 import Breadcrumb from "./../common/breadcrumbs/breadcrumb";

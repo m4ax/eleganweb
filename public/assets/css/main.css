@@ -915,7 +915,7 @@ select.focus, select:active.focus, select.active.focus {
 	background: #002bb7;
 }
 .services-content p {
-	padding: 0 25px;
+	padding: 0px 25px;
 	margin-bottom: 20px;
 }
 .services-box:hover .services-icon img {
@@ -2417,7 +2417,8 @@ ul.adress li span {
 }
 /* core-features-area three */
 .service-content-three {
-	padding-right: 80px;
+	padding-right: 40px;
+	padding-left: 100px;
 }
 .service-content-three h4 {
 	margin-bottom: 21px;

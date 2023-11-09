@@ -11,6 +11,7 @@ import AboutUsTwo from '../about/AboutUsTwo';
 import ServicesHomeOne from '../homes/home/ServicesHomeOne';
 import SubscriptinHomeThree from '../homes/home-3/SubscriptinHomeThree';
 import HeaderOne from '../layout/headers/header';
+import Punchline from '../homes/home/Punchline';
 
 const Hosting = () => {
     return (

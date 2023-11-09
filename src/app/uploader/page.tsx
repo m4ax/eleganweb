@@ -1,4 +1,4 @@
-import Hosting from "../../../components/hosting";
+import Hosting from "../../../components/uploader";
 
 const index = () => {
   return (
