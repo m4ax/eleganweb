@@ -2548,15 +2548,16 @@ a.btn.btn-subscriptin i {
 	background-position: center center;
 	background-size: cover;
 	padding-top: 300px;
-	padding-bottom: 180px;
+	padding-bottom:450px;
 }
 .breadcrumb-text {
 	position: relative;
 	z-index: 1;
 }
 .breadcrumb-text > h1 {
-	font-size: 70px;
+	font-size: 6vw;
 	margin-bottom: 30px;
+	margin-top:150px;
 	color: #fff;
 }
 .breadcrumb-text p {

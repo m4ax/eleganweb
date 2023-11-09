@@ -14,9 +14,9 @@ const Punchline: React.FC<title_content_type> = ({ line1, line2 }) =>  {
     if (line2 === "") {
         return (
             <>
-                <section className="core-features-area white-bg pt-115 pb-60">
+                <section className="core-features-area white-bg pt-135 pb-60">
                     <div className="container">
-                        <div className="row align-items-center mb-10">
+                        <div className="row align-items-center mb-70">
                             <div>
                                 <div className="section-title text-center mb-20">
                                     <h2>{line1}</h2>
@@ -30,7 +30,7 @@ const Punchline: React.FC<title_content_type> = ({ line1, line2 }) =>  {
     } else
     return (
         <>
-            <section className="core-features-area white-bg pt-115 pb-60">
+            <section className="core-features-area white-bg pt-135 pb-60">
                 <div className="container">
                     <div className="row align-items-center mb-40">
                         <div>

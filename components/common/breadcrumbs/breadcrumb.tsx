@@ -11,7 +11,7 @@ const Breadcrumb = ({top_title= "Contact Us", title= "About"} : breadcrumb_type)
     <>
       <section
         className="breadcrumb-area"
-        style={{backgroundImage: `url(/assets/img/bg/contractbg.jpg)`}}>
+        style={{backgroundImage: `url(/assets/img/slider/serviebg.jpg)`}}>
         <div className="container">
           <div className="row">
             <div className="col-xl-12">

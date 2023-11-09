@@ -14,6 +14,7 @@ import HeaderOne from '../layout/headers/header';
 import Punchline from '../homes/home/Punchline';
 import FollowUp from '../../components/homes/home/FollowUp'
 import Try from './Try'
+import HeroText from './herotext'
 
 const Hosting = () => {
     return (
@@ -21,12 +22,11 @@ const Hosting = () => {
             <HeaderOne />
             <main>
                 <Breadcrumb  top_title="Data Importer" title="Onboarding Solutions" />
-                <Punchline line1="Fix Your Customer Onboarding" line2="" />
-                <AboutUsArea />
-                <ServicesHomeOne />
+                {/* <Punchline line1="" line2="" /> */}
+                <HeroText />
                 <Try />
                 <SubscriptinHomeThree />
-                <AboutUsTwo />
+                <Punchline line1="First impressions count." line2="Let's make your onboarding beauitful." />
                 {/* <PriceArea /> */}
                 {/* <CoreFeatures /> */}
                 {/* <TestimonailHomeOne style={true} /> */}
