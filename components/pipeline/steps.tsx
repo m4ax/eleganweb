@@ -20,7 +20,7 @@ const AboutUsArea: React.FC<Props> = (props) => {
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-6 col-lg-8">
-                                <div className="about-wrapper wow fadeIn" data-wow-delay="0.3s">
+                                <div className="about-wrapper" data-wow-delay="0.3s">
                                 <div className="section-header">
                                     <h3>{sub_title}</h3>
                                     <h2>{title}</h2>
@@ -45,7 +45,7 @@ const AboutUsArea: React.FC<Props> = (props) => {
                 <div className="container">
                     <div className="row text-right">
                         <div className="col-xl-6 offset-xl-6 col-lg-8 offset-lg-4">
-                            <div className="about-wrapper wow fadeIn" data-wow-delay="0.3s">
+                            <div className="about-wrapper">
                             <div className="section-header">
                                 <h3>{sub_title}</h3>
                                 <h2>{title}</h2>

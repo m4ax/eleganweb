@@ -6,6 +6,7 @@ interface contact_service_data_type {
     title: string;
     info: JSX.Element;
     action: string;
+    cta: string;
 }
 // contact content 
 const contact_service_data: contact_service_data_type[] = [
@@ -13,29 +14,33 @@ const contact_service_data: contact_service_data_type[] = [
         id: 1,
         icon: "fal fa-map-marker-alt",
         title: "Office Location",
-        info: <>475/W 13th Street, Cooper New York, United States</>, 
+        info: <>Cheltenham, United Kingdom</>, 
         action: "Find Us On Map",
+        cta: "https://maps.app.goo.gl/4NBDVSkyUQybc4pR6"
     },
     {
         id: 2,
         icon: "fal fa-clock",
-        title: "Office Hour",
-        info: <>Mon - Fri: 09:00am to 07.00pm Sat - Sun: Off Day</>, 
-        action: "Get Directions",
+        title: "Office Hours",
+        info: <>Mon - Fri: 09:00am to 07.00pm</>, 
+        action: "Contact Us",
+        cta: "https://calendly.com/mxmry"
     },
     {
         id: 3,
         icon: "fal fa-phone",
         title: "Phone Number",
-        info: <>+909 797 6896 <br /> +(786) 7876 5675</>, 
+        info: <>Book a Meeting with us on Calendly</>, 
         action: "Call Now",
+        cta: "https://calendly.com/mxmry"
     },
     {
         id: 4,
         icon: "fal fa-envelope",
         title: "Email Address",
-        info: <>info@webmail.com info@example.web.com</>, 
+        info: <>info@elegan.io</>, 
         action: "Mail Us",
+        cta: "mailto:info@elegann.io"
     },
 ]
 
@@ -49,12 +54,12 @@ const ContractServices = () => {
                             <div key={i} className="col-xl-3 col-lg-3 col-md-6">
                                 <div className="contract-services-box text-center mb-30">
                                     <div className="mb-35">
-                                     <Link href="#"><i className={item.icon}></i></Link>
+                                     <Link href={item.cta} target="_blank"><i className={item.icon}></i></Link>
                                     </div>
                                     <div className="contract-services-content">
                                         <h3>{item.title}</h3>
                                         <p>{item.info}</p>
-                                        <span><Link href="#">{item.action}</Link></span>
+                                        <span><Link href={item.cta} target="_blank">{item.action}</Link></span>
                                     </div>
                                 </div>
                             </div>  

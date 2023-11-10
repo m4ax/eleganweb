@@ -31,9 +31,9 @@ const core_features_data_3:core_features_data_3_type[] = [
         title: "Data Analysis",
         features: [
             "Messy Data Accepted",
-            "Automatic Schema Mapping",
+            "Automatic Header Mapping",
             "Advanced Error Handling",
-            "Logical Understanding",
+            "AI Logical Understanding",
         ]
     },
     {
@@ -41,9 +41,9 @@ const core_features_data_3:core_features_data_3_type[] = [
         icon: feature_icon_3,
         title: "Output Schema",
         features: [
-            "Auto Schema",
+            "Auto Suggestions",
             "Upload Schema",
-            "AI Metadata Identifier",
+            "Metadata Identifier",
             "Advanced Validations",
         ]
     },
@@ -52,10 +52,10 @@ const core_features_data_3:core_features_data_3_type[] = [
         icon: feature_icon_4,
         title: "AI Mapping",
         features: [
-            "Intelligient Transformations",
+            "Auto Transformations",
             "Logical Validation",
-            "Simplified PCI compliance",
-            "Invoice support",
+            "Complex Data Types",
+            "Auto Clean Data",
         ]
     },
     {
@@ -63,10 +63,10 @@ const core_features_data_3:core_features_data_3_type[] = [
         icon: feature_icon_5,
         title: "AI Suggestions",
         features: [
-            "Advanced Error Handling",
-            "AI Transformations",
+            "No Code Solution",
+            "Continuous Learning",
             "Custom Functions",
-            "Robust Verifiation",
+            "Text to Transformation",
         ]
     },
     {

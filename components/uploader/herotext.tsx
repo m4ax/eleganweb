@@ -8,7 +8,7 @@ interface about_content_type {
 const about_content: about_content_type = {
     sub_title: "Easy Onboarding",
     title: "Accept client data in any format.",
-    title_2: "We've already done the hard work",
+    title_2: "We've already done the hard work.",
     sm_des: <>We'll automatically map their schema to yours, immediately fixing simple errors. </>
 }
 

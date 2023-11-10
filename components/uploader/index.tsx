@@ -13,6 +13,7 @@ import SubscriptinHomeThree from '../homes/home-3/SubscriptinHomeThree';
 import HeaderOne from '../layout/headers/header';
 import Punchline from '../homes/home/Punchline';
 import FollowUp from '../../components/homes/home/FollowUp'
+import SimpleSeamless from '../homes/home/SimpleSeamless'
 import Try from './Try'
 import HeroText from './herotext'
 
@@ -26,7 +27,7 @@ const Hosting = () => {
                 <HeroText />
                 <Try />
                 <SubscriptinHomeThree />
-                <Punchline line1="First impressions count." line2="Let's make your onboarding beauitful." />
+                <SimpleSeamless line1="First impressions count." line2="Wow your clients with migration ease." />
                 {/* <PriceArea /> */}
                 {/* <CoreFeatures /> */}
                 {/* <TestimonailHomeOne style={true} /> */}

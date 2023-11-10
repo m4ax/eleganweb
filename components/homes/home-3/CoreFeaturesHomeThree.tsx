@@ -114,7 +114,7 @@ const CoreFeaturesHomeThree = ({style} : any) => {
                             </div>
                         </div>
                     </div>
-                    <Image src={product1} className="img-fluid mb-100" alt="AI Data Cleaning Tool Screenshot"/>
+                    <Image src={product1} className="img-fluid mt-50 mb-100" alt="AI Data Cleaning Tool Screenshot"/>
                     {/* <div className="row mx-auto">
                         {core_features_data_3.map((item, i) => 
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6">

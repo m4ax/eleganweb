@@ -10,31 +10,8 @@ interface MenuItem {
   }[];
 }[];
 
-const menu_data:MenuItem[]  = [
-  {
-    id: 1,
-    title: "Home +",
-    link: "/",
-    has_dropdown: true,
-    sub_menus: [
-      { link: "/", title: "Home 01" },
-      { link: "/home-2", title: "Home 02" },
-      { link: "/home-3", title: "Home 03" },
-    ],
-  },
-  {
-    id: 2,
-    title: "Uploader",
-    link: "/uploader",
-    has_dropdown: false,     
-  },
-  {
-    id: 3,
-    title: "Pipeline",
-    link: "/pipeline",
-    has_dropdown: false,     
-  },
-  {
+/*
+{
     id: 5,
     title: "Pages +",
     link: "/about",
@@ -55,7 +32,6 @@ const menu_data:MenuItem[]  = [
       { link: "/recover", title: "recover" }, 
     ],
   },
-  
   {
     id: 6,
     title: "News",
@@ -65,6 +41,28 @@ const menu_data:MenuItem[]  = [
       { link: "/blog", title: "News Default" },
       { link: "/blog-details", title: "News Details" }, 
     ],
+  },
+
+*/
+
+const menu_data:MenuItem[]  = [
+  {
+    id: 1,
+    title: "Home",
+    link: "/",
+    has_dropdown: false,
+  },
+  {
+    id: 2,
+    title: "Uploader",
+    link: "/uploader",
+    has_dropdown: false,     
+  },
+  {
+    id: 3,
+    title: "Pipeline",
+    link: "/pipeline",
+    has_dropdown: false,     
   },
   {
     id: 7,

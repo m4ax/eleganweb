@@ -4,7 +4,7 @@ import NavMenu from './nav-menu';
 import { useState } from 'react';
 import SlideBar from './slide-bar';
 import MobileMenus from './mobile-menus';
-import Logo from "../../../public/assets/img/logo/logo.png";
+import Logo from "../../../public/assets/img/logo/logo2.png";
 import Image from 'next/image';
 
 const HeaderOne = () => { 
