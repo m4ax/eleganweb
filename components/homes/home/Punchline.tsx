@@ -15,7 +15,7 @@ const Punchline: React.FC<title_content_type> = ({ line1, line2 }) =>  {
         return (
 <>
             <section className="pt-100 pb-40">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row ">
                         <div className="col-xl-6 offset-xl-3">
                             <div className="section-title text-center mb-75">
@@ -33,7 +33,7 @@ const Punchline: React.FC<title_content_type> = ({ line1, line2 }) =>  {
     return (
         <>
             <section className="pt-100 pb-40">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row ">
                         <div className="col-xl-6 offset-xl-3">
                             <div className="section-title text-center mb-75">
