@@ -50,7 +50,7 @@ const HeaderOne = () => {
                                 </div> 
                             }                            
                             <div className="header-btn d-none d-md-block">
-                                <a className="btn" href="#"><i className="far fa-key"></i> Let's Chat</a>
+                                <a className="btn" href="#"><i className="far fa-phone"></i> Let's Chat</a>
                             </div>
                         </div>
                         <div className="col-12">
