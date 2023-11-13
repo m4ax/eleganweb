@@ -15,9 +15,9 @@ const SimpleSeamless: React.FC<title_content_type> = ({ line1, line2 }) =>  {
         return (
             <>
                 <section className="core-features-area white-bg pt-135 pb-20">
-                    <div className="container">
+                    <div className="container-fluid">
                         <div className="row align-items-center mb-70">
-                            <div>
+                            <div className="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2">
                                 <div className="section-title text-center mb-20">
                                     <h2>{line1}</h2>
                                 </div>
@@ -31,14 +31,16 @@ const SimpleSeamless: React.FC<title_content_type> = ({ line1, line2 }) =>  {
     return (
         <>
             <section className="core-features-area white-bg pt-135 pb-60">
-                <div className="container">
-                    <div className="row align-items-center mb-40">
-                        <div>
+                    <div className="container-fluid">
+                        <div className="row align-items-center mb-70">
+                            <div className="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2">
                             <div className="section-title text-center mb-40">
                                 <h2>{line1}</h2>
                             </div>
+                            <div className="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2">
                             <div className="section-title text-center mb-40">
                             <h2>{line2}</h2>
+                            </div>
                             </div>
                         </div>
                     </div>
