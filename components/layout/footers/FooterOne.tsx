@@ -17,28 +17,23 @@ const footer_links: footer_links_type[] = [
         id: 1,
         title: "Our Products",
         links: [
-           { title: "Onboarding", link: "#"},
-           { title: "Migration", link: "#"},
-           { title: "Cleansing", link: "#"},
-           { title: "Verification", link: "#"},
-           { title: "Logical Validation", link: "#"}
+           { title: "Onboarding", link: "/uploader"},
+           { title: "Migration", link: "/pipeline"},
         ]
     },
     {
         id: 2,
         title: "Get Links",
         links: [
-           { title: "Privacy", link: "/about"},
+           { title: "Privacy", link: "/privacy"},
            { title: "Your Data", link: "/hosting"},
-           { title: "Support", link: "/blog"},
-           { title: "Book a Demo", link: "#"},
+           { title: "Support", link: "/contact"},
         ]
     },
     {
         id: 3,
         title: "Our Company",
         links: [
-           { title: "About", link: "/about"},
            { title: "News", link: "/blog-details"},
            { title: "Contact Us", link: "/contact"},
         ]
