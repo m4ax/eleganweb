@@ -1,13 +1,13 @@
 import Breadcrumb from "../common/breadcrumbs/breadcrumb";
 import FooterOne from "../layout/footers/FooterOne";
-import HeaderTwo from "../layout/headers/header-2";
+import HeaderOne from "../layout/headers/header";
 import PrivacyArea from "./PrivacyArea";
 
 
 const Privacy = () => {
     return (
         <>
-            <HeaderTwo style={true} />
+            <HeaderOne />
             <main>
                 <Breadcrumb top_title="Privacy & Policy"  title="Privacy & Policy"  />
                 <PrivacyArea />

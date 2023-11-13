@@ -58,7 +58,7 @@ const privacy_data: privacy_data_type[] = [
         qustion: "07. Policy Updates",
         ans1: <>We may update this Privacy Policy periodically. Clients will be notified of significant changes and will have the opportunity to review the revised policy.</>,
         ans2: <></>,
-    }
+    },
     {
         id: 8,
         style_cls: "",
