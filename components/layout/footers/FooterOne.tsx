@@ -144,7 +144,7 @@ const FooterOne = () => {
                                     </div>
                                     <div className="col-xl-4">
                                         <div className="footer-orange-btn text-left text-xl-right">
-                                            <Link href="#" className="btn"><i className="fa fa-users"></i> Referral Scheme</Link>
+                                            <Link href="https://calendly.com/mxmry" target="_blank" className="btn"><i className="fa fa-users"></i> Referral Scheme</Link>
                                         </div>
                                     </div>
                                 </div>
