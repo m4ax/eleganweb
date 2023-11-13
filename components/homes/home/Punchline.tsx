@@ -50,6 +50,7 @@ const Punchline: React.FC<title_content_type> = ({ line1, line2 }) =>  {
                 </div>
             </section>
         </>
+    );
 };
 
 export default Punchline;
