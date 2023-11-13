@@ -9,7 +9,7 @@ const Privacy = () => {
         <>
             <HeaderOne />
             <main>
-                <Breadcrumb top_title="Privacy & Policy"  title="Privacy & Policy"  />
+                <Breadcrumb top_title="Privacy"  title="Privacy & Policy"  />
                 <PrivacyArea />
             </main>
             <FooterOne />
