@@ -15,12 +15,12 @@ const {bg_img, sub_title, title} = hero_content
 const HeroHomeOne = () => {
     return (
         <>
-            <section className="slider-area position-relative">
+            <section className="slider-area">
                 <div className="slider-ac">
                     <div className="single-slider slider-height" style={{backgroundImage: `url(${bg_img})`}}>
-                        <div className="container">
+                        <div className="container-fluid">
                             <div className="row">
-                                <div className="col-xl-8 offset-xl-2">
+                            <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 col-sm-12">
                                     <div className="slider-text pt-180 text-center">
                                         <span className="d-block wow fadeInUp animated" data-wow-delay="0.3s">
                                             {sub_title}

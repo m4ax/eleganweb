@@ -31,9 +31,9 @@ const core_features_data_3:core_features_data_3_type[] = [
         title: "Data Analysis",
         features: [
             "Messy Data Accepted",
-            "Automatic Header Mapping",
+            "Auto Header Mapping",
             "Advanced Error Handling",
-            "AI Logical Understanding",
+            "Logical Understanding",
         ]
     },
     {
