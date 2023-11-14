@@ -30,7 +30,7 @@ const contact_service_data: contact_service_data_type[] = [
         id: 3,
         icon: "fal fa-phone",
         title: "Phone Number",
-        info: <>Book a Meeting with us on Calendly</>, 
+        info: <>Book a meeting with us</>, 
         action: "Call Now",
         cta: "https://calendly.com/mxmry"
     },

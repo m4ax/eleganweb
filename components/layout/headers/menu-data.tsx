@@ -32,18 +32,11 @@ interface MenuItem {
       { link: "/recover", title: "recover" }, 
     ],
   },
-  {
-    id: 6,
-    title: "News",
-    link: "/blog",
-    has_dropdown: true,
-    sub_menus: [
-      { link: "/blog", title: "News Default" },
-      { link: "/blog-details", title: "News Details" }, 
-    ],
-  },
 
-*/
+  */
+
+
+
 
 const menu_data:MenuItem[]  = [
   {
@@ -63,6 +56,16 @@ const menu_data:MenuItem[]  = [
     title: "Pipeline",
     link: "/pipeline",
     has_dropdown: false,     
+  },
+  {
+    id: 6,
+    title: "News",
+    link: "/blog",
+    has_dropdown: true,
+    sub_menus: [
+      { link: "/blog", title: "News Default" },
+      { link: "/blog-details", title: "News Details" }, 
+    ],
   },
   {
     id: 7,

@@ -227,33 +227,7 @@ const BlogArea = () => {
 
                         <div className="col-lg-4">
                             <SearchBox /> 
-                            <AboutMe  /> 
-                            <PopularNewsFeeds /> 
-                            <CategoriesArea /> 
-                            <div className="widget mb-40">
-                                <div className="widget-title-box mb-30">
-                                <span className="animate-border"></span>
-                                <h3 className="widget-title">Social Profile</h3>
-                                </div>
-                                <div className="social-profile">
-                                    <SocialLinks /> 
-                                </div>
-                            </div>
-                            <div className="widget mb-40">
-                                <div className="widget-title-box mb-30">
-                                <span className="animate-border"></span>
-                                <h3 className="widget-title">Instagram Feeds</h3>
-                                </div>
-                                <ul id="Instafeed">
-                                <li><Link href="#"><Image src={instafed_img_1} alt="theme-pure" /></Link></li>
-                                <li><Link href="#"><Image src={instafed_img_2} alt="theme-pure" /></Link></li>
-                                <li><Link href="#"><Image src={instafed_img_3} alt="theme-pure" /></Link></li>
-                                <li><Link href="#"><Image src={instafed_img_4} alt="theme-pure" /></Link></li>
-                                <li><Link href="#"><Image src={instafed_img_5} alt="theme-pure" /></Link></li>
-                                <li><Link href="#"><Image src={instafed_img_6} alt="theme-pure" /></Link></li>
-                                </ul>
-                            </div>
-                            <Tags /> 
+                        
                             <div className="widget mb-40 p-0 b-0">
                                 <div className="banner-widget">
                                 <Link href="#"><Image src={banner} alt="theme-pure" /></Link>

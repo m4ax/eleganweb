@@ -60,7 +60,7 @@ const footer_content: footer_content_type ={
     price: "0.00003",
     info_us: "Streamline data migration by automating cleaning, transformation, and verification processes. .",
     address: "Hatherley Court, Cheltenham, GL51 3AQ",
-    mail :"contact@elegandata.com",
+    mail :"info@elegan.io",
     phone: "+44 7424 530231",
     website: "www.elegandata.com",
     footer_info: "Earn commission by referring followers or members of your network. Make money while helping others streamline their data migration processes.",    

@@ -19,6 +19,14 @@ import PostComments from "../forms/PostComments";
 import CommentsBox from "./CommentsBox";
 
 
+interface BlogDetails {
+   title: string;
+   desc1: string;
+   desc2: string;
+   
+}
+
+
 const BlogDetailsArea = () => {
     return (
         <>
@@ -36,173 +44,73 @@ const BlogDetailsArea = () => {
                               <span><a href="#"><i className="far fa-user"></i> Diboli B. Joly</a></span>
                               <span><a href="#"><i className="far fa-comments"></i> 23 Comments</a></span>
                            </div>
-                           <h3 className="blog-title">
-                              If you find yourself constantly bookmarking health sections on news.
-                           </h3>
-                           <div className="post-text mb-20">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                 incididunt ut labore et dolore magna
-                                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                 aliquip ex ea commodo.
-                              </p>
-                              <p>Bccaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                                 laborum. Sed ut perspiciatis
-                                 unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-                                 aperiam, eaque ipsa quae ab
-                                 illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                                 enim ipsam voluptatem quia
-                                 voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
-                                 ratione voluptatem sequi
-                                 nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                                 adipisci velit, sed quia non
-                                 numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-                                 voluptatem.
-                              </p>
-                              <blockquote>
-                                 <p>This health blog from NPR takes a fairly broad look at the medical world,.</p>
-                                 <footer>- Rosalina Pong</footer>
-                              </blockquote>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                 incididunt ut labore et dolore magna
-                                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                 aliquip ex ea commodo consequat.
-                                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                 nulla pariatur. Excepteur sint
-                                 occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
-                              </p>
-                              <div className="blog-inner-img mb-30 mt-30">
-                                 <img src="assets/img/blog/b3.jpg" alt="blog image" />
-                              </div>
-                              <div className="inner-content">
-                                 <h4>A cleansing hot shower or bath</h4>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna
-                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat.
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                    fugiat nulla pariatur. Excepteur
-                                    sint
-                                    occaecat cupidatat non proident, sunt in culpa qui officia.
-                                 </p>
-                              </div>
-                              <div className="inner-content">
-                                 <h4>Setting the mood with incense</h4>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna
-                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat.
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                    fugiat nulla pariatur. Excepteur
-                                    sint
-                                    occaecat cupidatat non proident, sunt in culpa qui officia.
-                                 </p>
-                              </div>
-                           </div>
-                           <div className="row mt-50">
-                              <div className="col-xl-8 col-lg-8 col-md-8 mb-15">
-                                 <div className="blog-post-tag">
-                                    <span>Releted Tags</span>
-                                    <a href="#">organic</a>
-                                    <a href="#">Foods</a>
-                                    <a href="#">tasty</a>
-                                 </div>
-                              </div>
-                              <div className="col-xl-4 col-lg-4 col-md-4 mb-15">
-                                 <div className="blog-share-icon text-left text-md-right">
-                                    <span>Share: </span>
-                                    <SocialLinks /> 
-                                 </div>
-                              </div>
-                           </div>
-                           <div className="row">
-                              <div className="col-12">
-                                 <div className="navigation-border pt-50 mt-40"></div>
-                              </div>
-                              <div className="col-xl-5 col-lg-5 col-md-5">
-                                 <div className="bakix-navigation b-next-post text-left mb-30">
-                                    <span><a href="#">Prev Post</a></span>
-                                    <h4><a href="#">Tips on Minimalist</a></h4>
-                                 </div>
-                              </div>
-                              <div className="col-xl-2 col-lg-2 col-md-2 ">
-                                 <div className="bakix-filter text-left text-md-center mb-30">
-                                    <a href="#"><img src="assets/img/icon/filter.png" alt="theme-pure" /></a>
-                                 </div>
-                              </div>
-                              <div className="col-xl-5 col-lg-5 col-md-5">
-                                 <div className="bakix-navigation b-next-post text-left text-md-right  mb-30">
-                                    <span><a href="#">Next Post</a></span>
-                                    <h4><a href="#">Tips on Minimalist</a></h4>
-                                 </div>
-                              </div>
-                           </div>
+
+                           <h2 id="embed-a-csv-importer-in-your-website-a-comprehensive-guide">Embed a CSV Importer in Your Website: A Comprehensive Guide</h2>
+<h3 id="what-is-a-csv-importer-">What is a CSV importer?</h3>
+<p>A CSV importer is a tool that allows users to import data from a CSV file into a website or web application. CSV files are comma-separated values files, which means that the data in the file is separated by commas. CSV files are a common way to store and exchange data because they are simple to create and edit.</p>
+<h3 id="why-would-you-want-to-embed-a-csv-importer-in-your-website-">Why would you want to embed a CSV importer in your website?</h3>
+<p>There are many benefits to embedding a CSV importer in your website, including:</p>
+<ul>
+<li>Improved user experience: CSV importers make it easy for users to add their data to your website, without having to manually enter it. This can save them time and effort, and it can also help to reduce errors.</li>
+<li>Increased data accuracy: CSV importers can help to improve the accuracy of your data by automatically validating it as it is imported. This can help to reduce the number of errors in your database.</li>
+<li>Improved data efficiency: CSV importers can help you to streamline your data entry and management processes. This can save you time and resources, and it can also help you to make better use of your data.</li>
+</ul>
+<h3 id="use-cases-for-embedding-a-csv-importer">Use cases for embedding a CSV importer</h3>
+<p>There are many different use cases for embedding a CSV importer in your website. Here are a few examples:</p>
+<ul>
+<li>E-commerce websites: E-commerce websites can use CSV importers to allow customers to import their product catalogs, order lists, and other data. This can make it easy for customers to get their products listed on the website quickly and easily.</li>
+<li>CRM systems: CRM systems can use CSV importers to allow users to import their customer contact lists, sales data, and other data. This can help users to get started with using the CRM system quickly and easily, and it also helps them to keep their data up-to-date.</li>
+<li>Project management tools: Project management tools can use CSV importers to allow users to import their task lists, project schedules, and other data. This can help users to get started with using the project management tool quickly and easily, and it also helps them to keep their projects on track.</li>
+<li>Data visualization tools: Data visualization tools can use CSV importers to allow users to import their data for analysis and visualization. This can help users to quickly and easily create charts, graphs, and other data visualizations that they can use to share their insights with others.</li>
+</ul>
+<h3 id="how-to-embed-a-csv-importer-in-your-website">How to embed a CSV importer in your website</h3>
+<p>To embed a CSV importer in your website, you will need to:</p>
+<ol>
+<li><p><strong>Choose a CSV importer tool.</strong> There are many different CSV importer tools available, both free and paid. Some popular CSV importer tools include:</p>
+<ul>
+<li>EasyCSV</li>
+<li>CSVBox</li>
+<li>CSVUploader</li>
+</ul>
+</li>
+<li><p><strong>Generate the embed code.</strong> Once you have chosen a CSV importer tool, you will need to generate the embed code. This code will be used to add the CSV importer to your website. The process for generating the embed code will vary depending on the CSV importer tool you are using. However, most CSV importer tools will provide you with a simple form that you can fill out to generate the embed code.</p>
+</li>
+<li><p><strong>Add the embed code to your website.</strong> The embed code will typically be a JavaScript snippet. You can add this snippet to your website&#39;s header or footer file. To add the embed code to your website&#39;s header or footer file, open the file in a text editor and paste the embed code into the file. Save the file and upload it to your website.</p>
+</li>
+<li><p><strong>Test the CSV importer.</strong> Once you have added the embed code to your website, you should test the CSV importer to make sure that it is working properly. You can do this by trying to import a CSV file into your website.</p>
+</li>
+</ol>
+<h3 id="best-practices-for-embedding-a-csv-importer">Best practices for embedding a CSV importer</h3>
+<p>When embedding a CSV importer in your website, there are a few best practices to keep in mind:</p>
+<ul>
+<li><strong>Choose a CSV importer tool that is compatible with your website platform.</strong></li>
+<li><strong>Make sure the CSV importer tool is secure.</strong></li>
+<li><strong>Choose a CSV importer tool that is easy to use for both you and your users.</strong></li>
+<li><strong>Provide clear instructions for your users on how to use the CSV importer.</strong></li>
+</ul>
+<h3 id="case-studies">Case studies</h3>
+<p>Here are a few examples of websites that embed CSV importers:</p>
+<ul>
+<li>EasyCSV: EasyCSV is a CSV importer tool that is used by many different websites, including e-commerce websites, CRM systems, and project management tools.</li>
+<li>CSVBox: CSVBox is another popular CSV importer tool that is used by many different websites.</li>
+<li>CSVUploader: CSVUploader is a free CSV importer tool that is used by many small businesses and individuals.</li>
+</ul>
+<p>These websites use CSV importers to allow their users to easily import their data into their systems. This saves their users time and effort, and it also helps to improve the accuracy and efficiency of their data management processes.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>Embedding a CSV importer in your website can be a great way to improve the user experience, increase data accuracy, and improve data efficiency. By following the tips in this blog post, you can ensure that your CSV importer is working properly and that your users are able to easily import their data into your system.</p>
+
+
+                           
                         </div>
-                        <div className="author mt-80 mb-40">
-                           <div className="author-img text-center">
-                              <img src="assets/img/blog/details/author.png" alt="theme-pure" />
-                           </div>
-                           <div className="author-text text-center">
-                              <h3>MD. Salim Rana</h3>
-                              <div className="author-icon">
-                                 <a href="#"><i className="fab fa-facebook-f"></i></a>
-                                 <a href="#"><i className="fab fa-twitter"></i></a>
-                                 <a href="#"><i className="fab fa-behance-square"></i></a>
-                                 <a href="#"><i className="fab fa-youtube"></i></a>
-                                 <a href="#"><i className="fab fa-vimeo-v"></i></a>
-                              </div>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                 incididunt ut labore et
-                                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                 nisi ut aliquip ex
-                                 ea commodo consequa aute irure dolor. 
-                              </p>
-                           </div>
-                        </div>
-                        <CommentsBox /> 
-                        <div className="post-comments-form">
-                           <div className="post-comments-title">
-                              <h2>Post Comments</h2>
-                           </div>
-                           <PostComments /> 
-                        </div>
+                        
+                     
                      </article>
                   </div>
 
 
                   <div className="col-lg-4">
-                        <SearchBox /> 
-                        <AboutMe  /> 
                         <PopularNewsFeeds /> 
                         <CategoriesArea /> 
-                        <div className="widget mb-40">
-                            <div className="widget-title-box mb-30">
-                            <span className="animate-border"></span>
-                            <h3 className="widget-title">Social Profile</h3>
-                            </div>
-                            <div className="social-profile">
-                                <SocialLinks /> 
-                            </div>
-                        </div>
-                        <div className="widget mb-40">
-                            <div className="widget-title-box mb-30">
-                            <span className="animate-border"></span>
-                            <h3 className="widget-title">Instagram Feeds</h3>
-                            </div>
-                            <ul id="Instafeed">
-                            <li><Link href="#"><Image src={instafed_img_1} alt="theme-pure" /></Link></li>
-                            <li><Link href="#"><Image src={instafed_img_2} alt="theme-pure" /></Link></li>
-                            <li><Link href="#"><Image src={instafed_img_3} alt="theme-pure" /></Link></li>
-                            <li><Link href="#"><Image src={instafed_img_4} alt="theme-pure" /></Link></li>
-                            <li><Link href="#"><Image src={instafed_img_5} alt="theme-pure" /></Link></li>
-                            <li><Link href="#"><Image src={instafed_img_6} alt="theme-pure" /></Link></li>
-                            </ul>
-                        </div>
-                        <Tags /> 
-                        <div className="widget mb-40 p-0 b-0">
-                            <div className="banner-widget">
-                            <Link href="#"><Image src={banner} alt="theme-pure" /></Link>
-                            </div>
-                        </div>
                 </div>
                </div>
             </div>
