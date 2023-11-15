@@ -19,7 +19,7 @@ const Product = () => {
                         </div>
                     </div>
                     <div>
-                        <Image src={product1} className="img-fluid" alt="AI Data Cleaning Tool Screenshot"/>
+                        <Image src={product1} className="img-fluid" alt="AI-Data-Migration-Tool"/>
                     </div>
                     <div className="row">
                         <div className="col-12">
@@ -40,7 +40,7 @@ export default Product;
 <div className="row">
     <div className="col-12">
         <div className="slider-bottom-img wow fadeInUp animated" data-wow-delay="1.3s">
-            <Image src={business1}  alt="theme-pure" />
+            <Image src={business1}  alt="elegan-data-migration" />
         </div>
     </div>
 </div>

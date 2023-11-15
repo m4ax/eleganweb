@@ -73,7 +73,7 @@ const BrandHomeOne = ({style} : any) => {
                         {brand_images.map((item, i) => 
                             <div key={i} className="col-12">
                                 <div className="single-brand">
-                                    <Image src={item.img} alt="theme-pure" />
+                                    <Image src={item.img} alt="elegan-data-migration" />
                                 </div>
                             </div>                        
                         )} 

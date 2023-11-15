@@ -18,7 +18,7 @@ const HeaderOne = () => {
                     <div className="row">
                         <div className="col-xl-3 col-lg-3 col-md-5 d-flex align-items-lg-center">
                             <div className="logo">
-                                <Link href="/"> <Image src={Logo } alt="theme-pure" /> </Link>
+                                <Link href="/"> <Image src={Logo } alt="elegan-data-migration" /> </Link>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 d-none d-lg-block">
@@ -50,7 +50,7 @@ const HeaderOne = () => {
                                 </div> 
                             }                            
                             <div className="header-btn d-none d-md-block">
-                                <a className="btn" href="#"> Let's Chat<i className="far fa-phone"></i></a>
+                                <a className="btn" href="#"><i className="far fa-phone"></i> Let's Chat</a>
                             </div>
                         </div>
                         <div className="col-12">

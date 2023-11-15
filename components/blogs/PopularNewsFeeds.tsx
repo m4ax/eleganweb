@@ -52,7 +52,7 @@ const PopularNewsFeeds = () => {
                     {popular_news_data.map((item, i)  => 
                         <li key={i}>
                             <div className="widget-posts-image">
-                                <Link href="/blog-details"><Image src={item.img} alt="theme-pure" /></Link>
+                                <Link href="/blog-details"><Image src={item.img} alt="data-migration" /></Link>
                             </div>
                             <div className="widget-posts-body">
                                 <h6 className="widget-posts-title"><Link href="/blog-details">{item.title}</Link>

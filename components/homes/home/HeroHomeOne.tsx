@@ -43,7 +43,7 @@ const HeroHomeOne = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="slider-bottom-img wow fadeInUp animated" data-wow-delay="1.3s">
-                                <Image src={server_img}  alt="theme-pure" />
+                                <Image src={server_img}  alt="serve-for-data-migration" />
                             </div>
                         </div>
                     </div>

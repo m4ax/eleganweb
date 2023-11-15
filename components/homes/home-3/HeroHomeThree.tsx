@@ -35,7 +35,7 @@ const HeroHomeThree = () => {
                                 </div>
                                 <div className="col-xl-5 col-lg-5 d-none d-lg-block">
                                    <div className="slider-right-img wow fadeInRight animated" data-wow-delay="1.3s">
-                                      <Image src={illustration_img} alt="theme-pure" />
+                                      <Image src={illustration_img} alt="elegan-data-migration" />
                                     </div>
                                 </div>
                             </div>

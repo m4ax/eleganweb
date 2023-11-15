@@ -52,7 +52,7 @@ const MakeBusinessHomeTwo = () => {
                         </div>
                         <div className="col-xl-5 col-lg-5">
                             <div className="faq-img make-business-img mb-30">
-                                <Image className="bounce-animate" src={business_img} alt="theme-pure" />
+                                <Image className="bounce-animate" src={business_img} alt="business-image" />
                             </div>
                         </div>
                     </div>

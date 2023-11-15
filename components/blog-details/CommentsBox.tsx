@@ -64,7 +64,7 @@ const CommentsBox = () => {
                         <li key={i} className={item.cls}>
                             <div className="comments-box">
                             <div className="comments-avatar">
-                                <Image src={item.img} alt="theme-pure" />
+                                <Image src={item.img} alt="elegan-data-migration" />
                             </div>
                             <div className="comments-text">
                                 <div className="avatar-name">

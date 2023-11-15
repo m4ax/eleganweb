@@ -64,7 +64,7 @@ const ChoseAreaHomeOne = () => {
                         {chose_data.map((item, i) => 
                             <div key={i} className="col-xl-4 col-lg-4">
                                 <div className={`chose-box text-center ${activeIndex === i ? 'active' : ''} mb-30`} onMouseEnter={() => handleMouseEnter(i)}>
-                                    <Image src={item.icon} alt="theme-pure" />
+                                    <Image src={item.icon} alt="elegan-data-migration" />
                                     <div className="chose-content">
                                         <span>{item.sirial_no}</span>
                                         <h3>{item.title}</h3>

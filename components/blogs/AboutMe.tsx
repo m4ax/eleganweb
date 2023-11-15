@@ -25,7 +25,7 @@ const AboutMe = () => {
                 <h3 className="widget-title">{sub_title}</h3>
                 </div>
                 <div className="about-me text-center">
-                <Image src={profile_pic} alt="theme-pure" />
+                <Image src={profile_pic} alt="elegan-data-migration" />
                 <h4>{name}</h4>
                 <p>{sm_info}</p>
                 <div className="widget-social-icon">

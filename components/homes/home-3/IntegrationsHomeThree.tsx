@@ -42,7 +42,7 @@ const IntegrationsHomeThree = () => {
                         {integrations_data.map((item, i) => 
                             <div key={i} className="col-lg-3 col-md-3 col-sm-6">
                                 <div className="int-img wow fadeInUp" data-wow-delay={item.delay}>
-                                    <Image src={item.img} alt="theme-pure" />
+                                    <Image src={item.img} alt="integration-provider-logo" />
                                 </div>
                             </div>                        
                         )} 

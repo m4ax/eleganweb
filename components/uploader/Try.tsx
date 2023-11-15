@@ -17,7 +17,7 @@ const IntroVideoArea = () => {
                         <div className="col-xl-8 offset-xl-2">
                             <div className="intro-video text-center mb-30">
                                 <div className="intro-video-img">
-                                    <img src="assets/img/bg/intro-video.jpg" alt="theme-pure" />
+                                    <img src="assets/img/bg/intro-video.jpg" alt="image-of-uploader" />
                                     <button className="intro-video popup-video" title="video"><i className="fal fa-play"></i></button>
                                 </div>
                             </div>

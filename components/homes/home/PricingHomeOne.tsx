@@ -56,7 +56,7 @@ const PricingHomeOne = () => {
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6">
                                 <div className="pricing-wrapper white-bg text-center mb-30 wow fadeInUp animated" data-wow-delay="0.3s">
                                     <div className="price-icon mb-15">
-                                        <Image src={item.icon} alt="theme-pure" />
+                                        <Image src={item.icon} alt="AI-Data-Tool-Migrate" />
                                     </div>
                                     <div className="pricin-title mb-20">
                                         <h3>{item.title}</h3>

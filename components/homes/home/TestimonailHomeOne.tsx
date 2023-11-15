@@ -108,7 +108,7 @@ const TestimonailHomeOne = ({style} : any) => {
                                             <p>{item.sm_des} </p>
                                             <div className="testimonail-author">
                                                 <div className="testimonail-img">
-                                                    <Image src={item.avatar} alt="theme-pure" />
+                                                    <Image src={item.avatar} alt="testimonial-provider" />
                                                 </div>
                                                 <h5>{item.name}</h5>
                                                 <span>{item.job_title}</span>

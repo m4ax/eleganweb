@@ -122,7 +122,7 @@ const Uploader = ({style} : any) => {
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6">
                                 <div className="services-box style_3 mb-60 wow fadeInUp p-3" data-wow-delay="0.3s">
                                     <div className="services-icon mb-35 " style={{ textAlign: 'center' }}>
-                                        <Image src={item.icon} alt="theme-pure" />
+                                        <Image src={item.icon} alt="icon-for-data-migration" />
                                     </div>
                                     <div className="services-content service-content-three  ">
                                         <h4>{item.title}</h4>

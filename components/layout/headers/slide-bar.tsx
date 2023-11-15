@@ -37,13 +37,13 @@ const SlideBar = ({sidebarOppen, setSidebarOppen}: any) => {
                 </div>
                 <div className="instagram">
                     <a href="#">
-                    <img src="assets/img/blog/ins1.jpg" alt="theme-pure" />
+                    <img src="assets/img/blog/ins1.jpg" alt="elegan-data-migration" />
                     </a>
                     <a href="#">
-                    <img src="assets/img/blog/ins4.jpg" alt="theme-pure" />
+                    <img src="assets/img/blog/ins4.jpg" alt="elegan-data-migration" />
                     </a>
                     <a href="#">
-                    <img src="assets/img/blog/ins3.jpg" alt="theme-pure" />
+                    <img src="assets/img/blog/ins3.jpg" alt="elegan-data-migration" />
                     </a>
                 </div>
                 <div className="social-icon-right mt-20">

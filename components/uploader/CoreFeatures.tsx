@@ -29,7 +29,7 @@ const CoreFeatures = () => {
                              <div key={i} className="col-xl-4 col-lg-4 col-md-6">
                                 <div className="services-box host_core_feature  mb-60 wow fadeInUp" data-wow-delay="0.3s">
                                     <div className="services-icon mb-35">
-                                        <Image src={item.img_2} alt="theme-pure" />
+                                        <Image src={item.img_2} alt="feature-icon" />
                                     </div>
                                     <div className="services-content service-content-share-hosting">
                                         <h4>{item.title_2}</h4>

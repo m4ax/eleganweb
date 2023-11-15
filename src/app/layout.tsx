@@ -8,7 +8,7 @@ if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
 }
 
-export default function RootLayout({
+export default function App({
   children,
 }:{ children: React.ReactNode }) 
 {
@@ -22,11 +22,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Elegan Data</title>
+        <title>Elegan Data: Pioneering AI-Powered Data Migration Solutions</title>
         <link rel="icon" href="/favicon.png" type="image/png" />
         <link
           href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Rubik:400,500,700"
           rel="stylesheet" />
+        <meta name="Migrate messy data with AI-powered data migration and transform your business operations with our solutions for CSV, JSON, Excel and more."></meta>
       </head> 
       <body>
         {children}

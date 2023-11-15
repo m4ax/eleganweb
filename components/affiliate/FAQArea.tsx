@@ -103,7 +103,7 @@ const FAQArea = ({style}: any) => {
                         </div>
                         <div className="col-xl-6 col-lg-6">
                             <div className="faq-right-content text-center">
-                                <Image className="bounce-animate" src={faq_img} alt="theme-pure" />
+                                <Image className="bounce-animate" src={faq_img} alt="elegan-data-migration" />
                             </div>
                         </div>
                     </div>

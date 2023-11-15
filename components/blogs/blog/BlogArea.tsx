@@ -154,7 +154,7 @@ const BlogArea = () => {
                                     }
                                     {item.video &&
                                         <div className="postbox__video">
-                                            <Image src={item.img_thumb}  alt="theme-pure" />
+                                            <Image src={item.img_thumb}  alt="elegan-data-migration" />
                                             <button className="popup-video video-btn" 
                                                 onClick={() => setIsVideoOpen(true)}
                                                 style={{ cursor: "pointer" }}>
@@ -174,7 +174,7 @@ const BlogArea = () => {
                                                 </button>
                                             <Slider {...setting} ref={sliderRef}>
                                                 {item.slider_img.map((sl_img, index) =>
-                                                    <Image key={index} src={sl_img}  alt="theme-pure" /> 
+                                                    <Image key={index} src={sl_img}  alt="elegan-data-migration" /> 
                                                 )}
                                             </Slider> 
                                         </div>
@@ -230,7 +230,7 @@ const BlogArea = () => {
                         
                             <div className="widget mb-40 p-0 b-0">
                                 <div className="banner-widget">
-                                <Link href="#"><Image src={banner} alt="theme-pure" /></Link>
+                                <Link href="#"><Image src={banner} alt="elegan-data-migration" /></Link>
                                 </div>
                             </div>
                         </div>

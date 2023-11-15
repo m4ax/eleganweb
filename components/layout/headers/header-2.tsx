@@ -43,9 +43,9 @@ const HeaderTwo = ({style}: style_type) => {
                             <div className="logo">
                                 <Link href="/"> 
                                 {style ?
-                                <img src="/assets/img/logo/footer-logo.png" alt="theme-pure" /> 
+                                <img src="/assets/img/logo/footer-logo.png" alt="elegan-data-migration" /> 
                                 :
-                                <img src="/assets/img/logo/logo.png" alt="theme-pure" />                                 
+                                <img src="/assets/img/logo/logo.png" alt="elegan-data-migration" />                                 
                                 }
                                 </Link>
                             </div>

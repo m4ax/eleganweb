@@ -31,9 +31,9 @@ const OurTeam = () => {
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6">
                                 <div className="our-team-wrapper mb-30 wow fadeInUp" data-wow-delay=".3s">
                                     <div className="team-img position-relative">
-                                        <Image src={item.avatar} alt="theme-pure" />
+                                        <Image src={item.avatar} alt="elegan-data-migration" />
                                         <div className={`team-shape shape${item.id}`}>
-                                            <Image src={item.shape} alt="theme-pure" />
+                                            <Image src={item.shape} alt="elegan-data-migration" />
                                         </div>
                                     </div>
                                     <div className="team-text">

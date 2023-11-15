@@ -22,12 +22,12 @@ const NewsFeedHomeOne = () => {
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6">
                                 <div className="latest-feed mb-45 wow fadeInUp animated" data-wow-delay="0.3s">
                                     <div className="news-feed-img">
-                                        <Link href="#"><Image src={item.news_thumb} alt="theme-pure" /></Link>
+                                        <Link href="#"><Image src={item.news_thumb} alt="elegan-data-migration" /></Link>
                                     </div>
                                     <div className="news-feed-info">
                                         <div className="news-feed-mata">
                                             <ul>
-                                                <li><Image src={item.avatar} alt="theme-pure" /> <span><a href="#">{item.name}</a></span></li>
+                                                <li><Image src={item.avatar} alt="elegan-data-migration" /> <span><a href="#">{item.name}</a></span></li>
                                                 <li><span><i className="fas fa-calendar-week"></i> {item.date}</span></li>
                                             </ul>
                                         </div>
@@ -43,7 +43,7 @@ const NewsFeedHomeOne = () => {
                     <div className="row mt-60">
                         <div className="col-md-12">
                             <div className="news-feed-bottom-img">
-                                <Image src={line_img} alt="theme-pure" />
+                                <Image src={line_img} alt="elegan-data-migration" />
                             </div>
                         </div>
                     </div>

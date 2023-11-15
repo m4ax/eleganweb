@@ -74,7 +74,7 @@ const FooterTwo = () => {
                                 <div className="footer-info">
                                     <div className="widgets">
                                         <div className="footer-logo">
-                                            <Image src={footer_logo} alt="theme-pure" />
+                                            <Image src={footer_logo} alt="elegan-data-logo" />
                                         </div>
                                         <p>{footer_info}</p>
                                     </div>

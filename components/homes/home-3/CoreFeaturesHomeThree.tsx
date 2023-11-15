@@ -114,13 +114,13 @@ const CoreFeaturesHomeThree = ({style} : any) => {
                             </div>
                         </div>
                     </div>
-                    <Image src={product1} className="img-fluid mt-50 mb-100" alt="AI Data Cleaning Tool Screenshot"/>
+                    <Image src={product1} className="img-fluid mt-50 mb-100" alt="AI-Data-Cleaning-Tool-Screenshot"/>
                     {/* <div className="row mx-auto">
                         {core_features_data_3.map((item, i) => 
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6">
                                 <div className="services-box style_3 mb-60 wow fadeInUp p-3" data-wow-delay="0.3s">
                                     <div className="services-icon mb-35">
-                                        <Image src={item.icon} alt="theme-pure" />
+                                        <Image src={item.icon} alt="elegan-data-migration" />
                                     </div>
                                     <div className="services-content service-content-three ">
                                         <h4>{item.title}</h4>

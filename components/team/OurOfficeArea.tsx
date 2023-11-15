@@ -30,10 +30,10 @@ const OurOfficeArea = () => {
                             <div className="col-xl-12">
                                 <div className="our-office-wrapper">
                                     <div className="our-office-img position-relative">
-                                    <Image src={office_img} alt="theme-pure" />
+                                    <Image src={office_img} alt="office-image" />
                                     <div className="video-wrapp">
                                         <div className="our-office-video">
-                                            <Image src={video_thumb} alt="theme-pure" />
+                                            <Image src={video_thumb} alt="office-video" />
                                             <button 
                                             onClick={() => setIsVideoOpen(true)} 
                                             // href="https://www.youtube.com/watch?v=m1rEBoaji-8" 

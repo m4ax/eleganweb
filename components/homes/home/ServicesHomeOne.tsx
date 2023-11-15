@@ -84,7 +84,7 @@ const ServicesHomeOne = () => {
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6">
                                 <div className="services-box text-center mb-30 wow fadeInUp animated" data-wow-delay="0.3s">
                                     <div className="services-icon mb-35">
-                                        <Image src={item.img} alt="theme-pure" />
+                                        <Image src={item.img} alt="service-icon-pure" />
                                     </div>
                                     <div className="services-content">
                                         <h3><Link href="/service-details">{item.title}</Link></h3>

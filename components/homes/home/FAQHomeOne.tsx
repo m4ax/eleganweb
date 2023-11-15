@@ -47,7 +47,7 @@ const FAQHomeOne = () => {
                     <div className="row">
                         <div className="col-xl-6">
                             <div className="faq-img mb-30">
-                                <img className="bounce-animate" src="/assets/img/bg/illustration.png" alt="theme-pure" />
+                                <img className="bounce-animate" src="/assets/img/bg/illustration.png" alt="elegan-data-migration" />
                             </div>
                         </div>
                         <div className="col-xl-6 ">

@@ -100,7 +100,7 @@ const FooterOne = () => {
                                 <div className="footer-bottom-area">
                                     <div className="widgets">
                                         <div className="footer-logo">
-                                            <Image src={footer_logo} alt="theme-pure" />
+                                            <Image src={footer_logo} alt="elegan-data-logo" />
                                         </div>
                                         <p>{info_us}</p>
                                         <ul className="adress">
