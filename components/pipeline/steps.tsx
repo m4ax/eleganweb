@@ -26,9 +26,9 @@ const AboutUsArea: React.FC<Props> = (props) => {
                                     <h2>{title}</h2>
                                     <h4>{title_2}</h4>
                                     <p>{sm_des}</p>
-                                    <a href="https://calendly.com/mxmry" target="_blank">
+                                    {/* <a href="https://calendly.com/mxmry" target="_blank">
                                     <div className="btn btn-2 mt-10" >Get Started Now</div>
-                                    </a>
+                                    </a> */}
                                 </div>
                                 </div>
                             </div>
@@ -51,9 +51,9 @@ const AboutUsArea: React.FC<Props> = (props) => {
                                 <h2>{title}</h2>
                                 <h4>{title_2}</h4>
                                 <p>{sm_des}</p>
-                                <a href="https://calendly.com/mxmry" target="_blank">
+                                {/* <a href="https://calendly.com/mxmry" target="_blank">
                                 <div className="btn btn-2 mt-10">Get Started Now</div>
-                                </a>
+                                </a> */}
                             </div>
                             </div>
                         </div>
