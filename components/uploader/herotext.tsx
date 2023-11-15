@@ -28,7 +28,7 @@ const HeroText = () => {
                         <div className="row">
                             <div className="col-sm">
                                 <div className="about-wrapper wow fadeIn" data-wow-delay="0.3s">
-                                <div className="section-header">
+                                <div className="section-title">
                                     <h3>{sub_title}</h3>
                                     <h2>{title}</h2>
                                     <h4>{title_2}</h4>

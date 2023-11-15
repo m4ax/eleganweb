@@ -26,7 +26,6 @@ const footer_links: footer_links_type[] = [
         title: "Get Links",
         links: [
            { title: "Privacy", link: "/privacy"},
-           { title: "Your Data", link: "/hosting"},
            { title: "Support", link: "/contact"},
         ]
     },
@@ -144,7 +143,7 @@ const FooterOne = () => {
                                     </div>
                                     <div className="col-xl-4">
                                         <div className="footer-orange-btn text-left text-xl-right">
-                                            <Link href="https://calendly.com/mxmry" target="_blank" className="btn"><i className="fa fa-users"></i> Referral Scheme</Link>
+                                            <Link href="/affiliate" className="btn"><i className="fa fa-users"></i> Referral Scheme</Link>
                                         </div>
                                     </div>
                                 </div>

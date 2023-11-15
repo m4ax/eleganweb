@@ -15,8 +15,8 @@ interface accordion_data_type {
  const accordion_data: accordion_data_type[] = [
         {
             id: 1,
-            question: "How do I give my computer a static local IP address?",
-            answer: <>But we dolor eiusmod tempor incididunt ut labore et dolore magna aliqua. sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </>,    
+            question: "How does your Affiliate Program work?",
+            answer: <> Elegan's affiliate marketing is a performance-based marketing program where affiliates earn a commission for promoting our products or services, through a unique affiliate link.</>,  
             accordion_id: "One",
             collapsed: "", 
             aria_expanded: true, 
@@ -24,8 +24,8 @@ interface accordion_data_type {
         },
         {
             id: 2,
-            question: "Why can't people connect to the web server?",
-            answer: <>But we dolor eiusmod tempor incididunt ut labore et dolore magna aliqua. sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </>,    
+            question: "What is the revenue share?",
+            answer: <>You will earn 20% of on-going revenue from each validated customer. You will be paid monthly.</>,    
             accordion_id: "Two",
             collapsed: "collapsed", 
             aria_expanded: false, 
@@ -33,8 +33,8 @@ interface accordion_data_type {
         },
         {
             id: 3,
-            question: "What domain name should I choose site?",
-            answer: <>But we dolor eiusmod tempor incididunt ut labore et dolore magna aliqua. sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</>,    
+            question: "How long does the affiliate cookie last?",
+            answer: <>The cookie will last 90 days.</>,    
             accordion_id: "Three",
             collapsed: "collapsed", 
             aria_expanded: false, 
@@ -42,18 +42,19 @@ interface accordion_data_type {
         },
         {
             id: 4,
-            question: "What domain name should I choose site?",
-            answer: <>But we dolor eiusmod tempor incididunt ut labore et dolore magna aliqua. sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</>,    
-            accordion_id: "Foure",
+            question: "How do I get started or find out more information?",
+            answer: <>Please book a call with us to discuss how we can work together.</>,    
+            accordion_id: "Three",
             collapsed: "collapsed", 
             aria_expanded: false, 
             show: ""
-        },  
+        },
+
  ]
 
 const faq_content = {
-    title: "FAQ Here",
-    sm_info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "FAQ",
+    sm_info: "Find out how we can work together.",
 }
 const {title, sm_info}  = faq_content
 
@@ -66,7 +67,7 @@ const FAQArea = ({style}: any) => {
                         <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
                             <div className="section-title  text-center mb-70">
                             <h2>{title}</h2>
-                            <p>{sm_info}</p>
+                            {/* <p>{sm_info}</p> */}
                             </div>
                         </div>
                     </div>

@@ -5,6 +5,8 @@ import HeaderOne from "../layout/headers/header";
 import Breadcrumb from "./../common/breadcrumbs/breadcrumb";
 import FAQArea from "./FAQArea";
 import IntroVideoArea from "./IntroVideoArea";
+import Herotext from './herotext';
+import Herotextleft from './herotextleft';
 
 const Affiliate = () => {
   return (
@@ -12,8 +14,9 @@ const Affiliate = () => {
       <HeaderOne />
       <main>
         <Breadcrumb top_title="Affiliate" title="Affiliate" />
-        <ChoseAreaHomeOne />
+        <Herotext />
         <FAQArea />
+        <Herotextleft />
       </main>
       <FooterOne />
     </>
