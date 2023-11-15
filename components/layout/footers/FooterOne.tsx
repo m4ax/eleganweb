@@ -62,7 +62,7 @@ const footer_content: footer_content_type ={
     address: "Hatherley Court, Cheltenham, GL51 3AQ",
     mail :"info@elegan.io",
     phone: "+44 7424 530231",
-    website: "www.elegandata.com",
+    website: "www.elegan.io",
     footer_info: "Earn commission by referring followers or members of your network. Make money while helping others streamline their data migration processes.",    
 
 }
