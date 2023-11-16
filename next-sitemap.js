@@ -20,7 +20,7 @@ function determineChangeFreq(path) {
       return 'daily';
   }
   // Set other specific paths as needed
-  return 'weekly'; // Default value for all other paths
+  return 'monthly'; // Default value for all other paths
 }
 
 function determinePriority(path) {
