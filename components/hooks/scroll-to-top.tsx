@@ -28,7 +28,7 @@ const ScrollToTop = () => {
 
   return (
     <>  
-      <button  onClick={scrollTop} id="scrollUp" 
+      <button  onClick={scrollTop} aria-label="Go to the top" id="scrollUp" 
         style={{position: "fixed", zIndex: "2147483647", border: "none",  display: `${sticky ?  "block" : "none"}`}}>
           <i className="fal fa-long-arrow-up"></i>
        </button>

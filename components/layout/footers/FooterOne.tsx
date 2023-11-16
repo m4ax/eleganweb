@@ -110,9 +110,6 @@ const FooterOne = () => {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="footer-social text-center">
-                                    <SocialLinks />  
-                                </div>
                             </div>
                             <div className="col-xl-8 col-lg-8">
                                 <div className="footer-right-box pl-70">
@@ -142,7 +139,7 @@ const FooterOne = () => {
                                         </div>
                                     </div>
                                     <div className="col-xl-4">
-                                        <div className="footer-orange-btn text-left text-xl-right">
+                                        <div className="footer-blue-btn text-left text-xl-right">
                                             <Link href="/affiliate" className="btn"><i className="fa fa-users"></i> Referral Scheme</Link>
                                         </div>
                                     </div>

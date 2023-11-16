@@ -30,25 +30,8 @@ const HeaderOne = () => {
                         </div>
                         <div className="col-xl-3 col-lg-3 col-md-7 d-flex flex-row-reverse align-items-center justify-content-xl-end">
                             <div className="bar d-none d-xl-block">
-                                <button className="info-bar" onClick={() => setSidebarOppen(true)}><i className="far fa-bars"></i></button>
-                            </div>
-                            <div className="search d-none d-xl-block">
-                                <button className={`nav-search search-trigger ${searchOppen && "open"}`}><i className="far fa-search" onClick={() => setSearchOppen(true)}></i></button>
-                            </div>
-                            {searchOppen && 
-                                <div className={`search-wrap ${searchOppen && "d-block"}`}>
-                                    <div className="search-inner">
-                                        <i className={`fas fa-times search-close ${searchOppen && "open"}`} onClick={() => setSearchOppen(false)} id="search-close"></i>
-                                        <div className="search-cell">
-                                            <form onSubmit={(e) => e.preventDefault()}>
-                                                <div className="search-field-holder">
-                                                    <input type="search" className="main-search-input" placeholder="Search Your Keyword..." />
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div> 
-                            }                            
+                                <button className="info-bar" aria-label="Open menu" onClick={() => setSidebarOppen(true)}><i className="far fa-bars"></i></button>
+                            </div>             
                             <div className="header-btn d-none d-md-block">
                                 <a className="btn" href="#"><i className="far fa-phone"></i> Let's Chat</a>
                             </div>

@@ -27,6 +27,7 @@ export default function App({
         <link
           href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Rubik:400,500,700"
           rel="stylesheet" />
+        <meta name="theme-color" content="#5e2afa"/>
         <meta name="description" content="Migrate messy data with AI-powered data migration tool and transform your business operations with our solutions for CSV, JSON, Excel and more."></meta>
       </head> 
       <body>
