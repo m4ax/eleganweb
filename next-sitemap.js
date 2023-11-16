@@ -28,9 +28,12 @@ function determinePriority(path) {
   if (path === '/') {
       return 1.0; // Highest priority for the home page
   }
-  if (path.includes('/about') || path.includes('/contact')) {
+  if (path.includes('/uploader') || path.includes('/contact')) {
       return 0.8; // Slightly higher priority for important pages
   }
+  if (path.includes('/pipeline') || path.includes('/contact')) {
+    return 0.8; // Slightly higher priority for important pages
+}
   // Set other specific paths as needed
   return 0.5; // Default value for all other paths
 }
