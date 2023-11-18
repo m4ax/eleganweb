@@ -2,7 +2,15 @@
   "title": "The Challenges of Data Migration in Transport Sector Onboarding",
   "publishedAt": "2023-11-15T00:00:00.000Z",
   "updatedAt": "2023-11-17T00:00:00.000Z",
-  "image": "./public/assets/img/blog/b1.jpg",
+  "image": {
+    "filePath": "../public/assets/img/blog/b1.jpg",
+    "relativeFilePath": "../../public/assets/img/blog/b1.jpg",
+    "format": "jpeg",
+    "height": 460,
+    "width": 770,
+    "aspectRatio": 1.673913043478261,
+    "blurhashDataUrl": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA7klEQVR4nDWOvS5DYRjH377Pc44250OokrSkbZozVmIQBgaTgQgi+mHSEJFKJ8KJRSIsBlMXNyBIXICpVyCuRmL6OT1Nh9/0/zTL8sWKDFjVAUvySSR9SnJLXs8JtY2p21cW5YO6fWej/EbVPlGUa6b1FF9bmCjTZ8xV9Mu83lHzYia1kxgamAV7T8U+Us48cFb7phB2Wc+9EDhHeLqPKcoNJY3T2sD0WJu7pOrGSbpFVncxBb1gxukx63SZSniu/LGZ/8GVg5EhdDrJ25MRckxoGvi5ZiLu4dptzHDLt00Caae1nhymYlZ3mNAt/gFa1GdhBE0Z2AAAACt0RVh0Q3JlYXRpb24gVGltZQBGcmksIDE3IE5vdiAyMDIzIDExOjM0OjE2IEdNVAWmYxcAAAAudEVYdFNvZnR3YXJlAGdpdGh1Yi5jb20vbWF0bWVuL0ltYWdlU2NyaXB0IHYxLjIuMTbo2b2GAAAAAElFTkSuQmCC"
+  },
   "tags": [
     "big data",
     "data migration",

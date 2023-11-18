@@ -111,6 +111,7 @@ const BlogDetailsArea = () => {
                   <div className="col-lg-4">
                         <PopularNewsFeeds /> 
                         <CategoriesArea /> 
+                        <Tags />
                 </div>
                </div>
             </div>

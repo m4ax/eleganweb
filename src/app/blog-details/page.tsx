@@ -1,4 +1,5 @@
 import BlogDetails from "../../../components/blog-details";
+import { allBlogs } from "../../../.contentlayer/generated/index.mjs";
 
 
 const index = () => {
