@@ -110,7 +110,7 @@ const BlogArea = () => {
                                     }
                                     <div className="postbox__text p-50">
                                         <div className="post-meta mb-15">
-                                            <span><i className="far fa-calendar-check"></i> {item.publishedAt}</span>
+                                            <span><i className="far fa-calendar-check"></i> {item.publishedAt.split('T')[0]}</span>
                                          
                                         </div>
                                         <h3 className="blog-title">

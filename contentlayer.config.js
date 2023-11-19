@@ -38,7 +38,7 @@ const Blog = defineDocumentType(() => ({
   computedFields: {
     url: {
       type: "string",
-      resolve: (doc) => `/topics/${doc._raw.flattenedPath}`,
+      resolve: (doc) => `/topic/${doc._raw.flattenedPath}`,
     },
   },
 

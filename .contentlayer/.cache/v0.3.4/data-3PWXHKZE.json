@@ -12,7 +12,7 @@
           "height": 460,
           "width": 770,
           "aspectRatio": 1.673913043478261,
-          "blurhashDataUrl": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA7klEQVR4nDWOvS5DYRjH377Pc44250OokrSkbZozVmIQBgaTgQgi+mHSEJFKJ8KJRSIsBlMXNyBIXICpVyCuRmL6OT1Nh9/0/zTL8sWKDFjVAUvySSR9SnJLXs8JtY2p21cW5YO6fWej/EbVPlGUa6b1FF9bmCjTZ8xV9Mu83lHzYia1kxgamAV7T8U+Us48cFb7phB2Wc+9EDhHeLqPKcoNJY3T2sD0WJu7pOrGSbpFVncxBb1gxukx63SZSniu/LGZ/8GVg5EhdDrJ25MRckxoGvi5ZiLu4dptzHDLt00Caae1nhymYlZ3mNAt/gFa1GdhBE0Z2AAAACt0RVh0Q3JlYXRpb24gVGltZQBTdW4sIDE5IE5vdiAyMDIzIDA1OjU3OjMwIEdNVJjJxEEAAAAudEVYdFNvZnR3YXJlAGdpdGh1Yi5jb20vbWF0bWVuL0ltYWdlU2NyaXB0IHYxLjIuMTbo2b2GAAAAAElFTkSuQmCC"
+          "blurhashDataUrl": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA7klEQVR4nDWOvS5DYRjH377Pc44250OokrSkbZozVmIQBgaTgQgi+mHSEJFKJ8KJRSIsBlMXNyBIXICpVyCuRmL6OT1Nh9/0/zTL8sWKDFjVAUvySSR9SnJLXs8JtY2p21cW5YO6fWej/EbVPlGUa6b1FF9bmCjTZ8xV9Mu83lHzYia1kxgamAV7T8U+Us48cFb7phB2Wc+9EDhHeLqPKcoNJY3T2sD0WJu7pOrGSbpFVncxBb1gxukx63SZSniu/LGZ/8GVg5EhdDrJ25MRckxoGvi5ZiLu4dptzHDLt00Caae1nhymYlZ3mNAt/gFa1GdhBE0Z2AAAACt0RVh0Q3JlYXRpb24gVGltZQBTdW4sIDE5IE5vdiAyMDIzIDA2OjMyOjQyIEdNVF0UtnYAAAAudEVYdFNvZnR3YXJlAGdpdGh1Yi5jb20vbWF0bWVuL0ltYWdlU2NyaXB0IHYxLjIuMTbo2b2GAAAAAElFTkSuQmCC"
         },
         "tags": [
           "big data",
@@ -37,7 +37,7 @@
           "flattenedPath": "challenges-of-data-migration-in-transport-sector"
         },
         "type": "Blog",
-        "url": "/topics/challenges-of-data-migration-in-transport-sector"
+        "url": "/topic/challenges-of-data-migration-in-transport-sector"
       },
       "documentHash": "1700220856124",
       "hasWarnings": false,
