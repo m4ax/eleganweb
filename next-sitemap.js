@@ -11,8 +11,21 @@ module.exports = {
           lastmod: new Date().toISOString(),
       };
   },
+  additionalPaths: async (config) => {
+    const blogSlugs = await getAllBlogSlugs();
+    return blogSlugs.map((url) => ({
+      loc: `/topic${url}`, // Adjust the path according to your URL structure
+    }));
+  },
   // additional options here if needed
 };
+
+import { allBlogs } from 'contentlayer/generated';
+
+export async function getAllBlogSlugs() {
+  return allBlogs.map((blog) => blog.url);
+}
+
 
 function determineChangeFreq(path) {
   // Define logic to determine change frequency based on the path

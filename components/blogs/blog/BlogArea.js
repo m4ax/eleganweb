@@ -88,6 +88,7 @@ const BlogArea = () => {
     console.log(sortedBlogs)
     
 
+    const totalPages = Math.ceil(sortedBlogs.length / itemsPerPage);
 
     return (
         <>
@@ -130,23 +131,37 @@ const BlogArea = () => {
                             <article className="postbox post format-quote mb-40">
                                 <div className="post-text">
                                 <blockquote>
-                                    <p>This health blog from NPR takes a fairly broad look at the medical world,.</p>
-                                    <footer>- Rosalina Pong</footer>
+                                    <p>The Data Migration Market is set to grow to 33.58 billion by 2030.</p>
+                                    <footer>- nextmsc</footer>
                                 </blockquote>
                                 </div>
                             </article>
 
 
                             <div className="basic-pagination basic-pagination-2 mb-40">
-                                <ul>
-                                <li><Link href="#"><i className="fas fa-angle-double-left"></i></Link></li>
-                                <li><Link href="#">01</Link></li>
-                                <li className="active"><Link href="#">02</Link></li>
-                                <li><Link href="#">03</Link></li>
-                                <li><Link href="#"><i className="fas fa-ellipsis-h"></i></Link></li>
-                                <li><Link href="#"><i className="fas fa-angle-double-right"></i></Link></li>
-                                </ul>
-                            </div>
+                <ul>
+                    {/* Previous Page Button */}
+                    <li>
+                        <a onClick={goToPrevPage}>
+                            <i className="fas fa-angle-double-left"></i>
+                        </a>
+                    </li>
+
+                    {/* Page Numbers */}
+                    {Array.from({ length: totalPages }, (_, index) => (
+                        <li key={index} className={index === currentPage ? 'active' : ''}>
+                            <a onClick={() => setCurrentPage(index)}>{index + 1}</a>
+                        </li>
+                    ))}
+
+                    {/* Next Page Button */}
+                    <li>
+                        <a onClick={goToNextPage}>
+                            <i className="fas fa-angle-double-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
                         </div>
 
                         <div className="col-lg-4">
