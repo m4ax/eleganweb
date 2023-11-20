@@ -1,5 +1,5 @@
 
-module.exports = {
+export default {
   siteUrl: 'http://www.elegan.io',
   generateRobotsTxt: true, // Generate robots.txt file
   sitemapSize: 5000, // Maximum number of URLs per sitemap file, adjust as needed
@@ -21,9 +21,8 @@ module.exports = {
   // additional options here if needed
 };
 
-import { allBlogs } from 'contentlayer/generated';
-
 async function getAllBlogSlugs() {
+  const { allBlogs } = await import('/vercel/path0/node_modules/contentlayer/generated/index.mjs');
   return allBlogs.map((blog) => blog.url);
 }
 
