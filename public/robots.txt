@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: http://www.elegan.io
+
+# Sitemaps
+Sitemap: http://www.elegan.io/sitemap.xml

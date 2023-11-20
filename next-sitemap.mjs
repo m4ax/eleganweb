@@ -22,7 +22,7 @@ export default {
 };
 
 async function getAllBlogSlugs() {
-  const { allBlogs } = await import('/vercel/path0/node_modules/contentlayer/generated/index.mjs');
+  const { allBlogs } = await import('./.contentlayer/generated/Blog/_index.mjs');
   return allBlogs.map((blog) => blog.url);
 }
 
