@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate-sitemap": "next-sitemap --config=next-sitemap.js"
+    "generate-sitemap": "next-sitemap --config=next-sitemap.mjs"
   },
   "dependencies": {
     "@types/node": "20.2.5",
