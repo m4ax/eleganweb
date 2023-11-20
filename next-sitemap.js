@@ -20,7 +20,7 @@ module.exports = {
   // additional options here if needed
 };
 
-import { allBlogs } from 'contentlayer/generated';
+const allBlogs = require('contentlayer/generated').allBlogs;
 
 export async function getAllBlogSlugs() {
   return allBlogs.map((blog) => blog.url);
