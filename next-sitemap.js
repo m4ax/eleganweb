@@ -21,7 +21,7 @@ module.exports = {
 };
 
 async function getAllBlogSlugs() {
-  const { allBlogs } = await import('contentlayer/generated');
+  const { allBlogs } = await import('contentlayer/generated/index.mjs');
   return allBlogs.map((blog) => blog.url);
 }
 
