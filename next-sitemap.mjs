@@ -1,3 +1,4 @@
+
 module.exports = {
   siteUrl: 'http://www.elegan.io',
   generateRobotsTxt: true, // Generate robots.txt file
@@ -20,8 +21,9 @@ module.exports = {
   // additional options here if needed
 };
 
+import { allBlogs } from 'contentlayer/generated';
+
 async function getAllBlogSlugs() {
-  const { allBlogs } = await import('contentlayer/generated/index.mjs');
   return allBlogs.map((blog) => blog.url);
 }
 
