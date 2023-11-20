@@ -22,7 +22,7 @@ module.exports = {
 
 const allBlogs = require('contentlayer/generated').allBlogs;
 
-export async function getAllBlogSlugs() {
+async function getAllBlogSlugs() {
   return allBlogs.map((blog) => blog.url);
 }
 
