@@ -14,8 +14,11 @@ export default {
   },
   additionalPaths: async (config) => {
     const blogSlugs = await getAllBlogSlugs();
-    return blogSlugs.map((url) => ({
-      loc: `/topic${url}`, // Adjust the path according to your URL structure
+    return blogSlugs.map((blog) => ({
+      loc: `/${blog.url}`,
+      changefreq: determineChangeFreq(blog.url),
+      priority: determinePriority(blog.url),
+      lastmod: blog.updatedAt, // Adjust the path according to your URL structure
     }));
   },
   // additional options here if needed
@@ -23,12 +26,17 @@ export default {
 
 async function getAllBlogSlugs() {
   const { allBlogs } = await import('./.contentlayer/generated/Blog/_index.mjs');
-  return allBlogs.map((blog) => blog.url);
+  return allBlogs.map((blog) => {
+  return {
+    url: blog.url,
+    updatedAt: blog.updatedAt
+  }
+   }   );
 }
 
 function determineChangeFreq(path) {
   // Define logic to determine change frequency based on the path
-  if (path === '/' || path.includes('/blog')) {
+  if (path === '/' || path.includes('/blog') || path.includes9('topic')) {
       return 'daily';
   }
   // Set other specific paths as needed
