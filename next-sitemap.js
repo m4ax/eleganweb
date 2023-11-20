@@ -20,12 +20,10 @@ module.exports = {
   // additional options here if needed
 };
 
-const allBlogs = require('contentlayer/generated').allBlogs;
-
 async function getAllBlogSlugs() {
+  const { allBlogs } = await import('contentlayer/generated');
   return allBlogs.map((blog) => blog.url);
 }
-
 
 function determineChangeFreq(path) {
   // Define logic to determine change frequency based on the path
