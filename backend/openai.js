@@ -14,12 +14,26 @@ async function getModelRecipe() {
 
     const initialSystemMessage = {
         role: "system",
-        content: `Create a blog post on a specified topic. The blog should be over 1,000 words, combining paragraphs and bullet points for easy readability. It should be optimized for SEO to rank well on Google and formatted in markdown.`
+        content: `Create a blog post on a specified topic with the following front matter included at the top of the markdown content:
+    
+    ---
+    title: 
+    publishedAt: 
+    updatedAt:
+    description: 
+    isPublished: true
+    image: ""
+    tags: 
+      - 
+      - 
+      - 
+    ---
+    
+    The blog should be under 500 words, combining paragraphs and bullet points for easy readability. It should be optimized for SEO to rank well on Google and formatted in markdown.`
     };
     
-
-    const userMessageContent = `Please write a comprehensive and engaging blog post about ${topic}. The content should explore the topic in depth, provide useful insights, and engage the reader with a conversational tone. Ensure the use of relevant keywords for SEO and include practical examples or case studies. The blog should be structured with clear headings and subheadings, and use bullet points for key takeaways.`;
-
+    const userMessageContent = `Please write a comprehensive and engaging blog post about the challenges of data migration in the transport sector. The content should explore the topic in depth, provide useful insights, and engage the reader with a conversational tone. Ensure the use of relevant keywords for SEO and include practical examples or case studies. The blog should be structured with clear headings and subheadings, and use bullet points for key takeaways.`;
+    
     const userMessage = {
         role: "user",
         content: userMessageContent
