@@ -39,7 +39,7 @@ const contact_service_data: contact_service_data_type[] = [
         icon: "fal fa-envelope",
         title: "Email Address",
         info: <>info@elegan.io</>, 
-        action: "Mail Us",
+        action: "Email Us",
         cta: "mailto:info@elegann.io"
     },
 ]
