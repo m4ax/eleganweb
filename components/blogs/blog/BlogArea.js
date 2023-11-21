@@ -1,23 +1,14 @@
 "use client"
-import Tags from "../Tags";
+
 import Link from "next/link";
 import Image from "next/image";
-import AboutMe from "../AboutMe";
-import SearchBox from "../SearchBox";
-import CategoriesArea from "../CategoriesArea";
-import PopularNewsFeeds from "../PopularNewsFeeds";
-import SocialLinks from "../../common/social-links";
 
-import instafed_img_1 from "../../../public/assets/img/blog/ins1.jpg";
-import instafed_img_2 from "../../../public/assets/img/blog/ins2.jpg";
-import instafed_img_3 from "../../../public/assets/img/blog/ins3.jpg";
-import instafed_img_4 from "../../../public/assets/img/blog/ins4.jpg";
-import instafed_img_5 from "../../../public/assets/img/blog/ins5.jpg";
-import instafed_img_6 from "../../../public/assets/img/blog/ins1.jpg";
+import SearchBox from "../SearchBox";
+
 
 import banner from "../../../public/assets/img/blog/details/banner.png";
 import blog_img_1 from "../../../public/assets/img/blog/b1.jpg";
-import blog_img_2 from "../../../public/assets/img/blog/b2.jpg"; 
+
 
 import {  useState } from "react";
 
@@ -110,14 +101,10 @@ const BlogArea = () => {
                                         </div> 
                                     }
                                     <div className="postbox__text p-50">
-                                        <div className="post-meta mb-15">
-                                            <span><i className="far fa-calendar-check"></i> {item.publishedAt.split('T')[0]}</span>
-                                         
-                                        </div>
                                         <h3 className="blog-title">
                                             <a href={item.url}>{item.title}</a>
                                         </h3>
-                                        {/* <div className="post-text mb-20" dangerouslySetInnerHTML={{ __html: item.description.html }}></div> */}
+                                        <div className="post-text mb-20" dangerouslySetInnerHTML={{ __html: item.description.html }}></div>
                                         <div className="read-more mt-30">
     <Link href={item.url}>
         <button className="btn btn-2">read more</button>
@@ -166,12 +153,22 @@ const BlogArea = () => {
 
                         <div className="col-lg-4">
                             <SearchBox /> 
-                        
-                            <div className="widget mb-40 p-0 b-0">
-                                <div className="banner-widget">
-                                <Link href="#"><Image src={banner} alt="elegan-data-migration" /></Link>
+
+                            <article className="postbox post format-quote mb-40">
+                                <div className="post-text">
+                                <blockquote>
+
+                                    <p>Inadequacies of Legacy Systems Instigate Momentum in Digital Transformation. Consequently, the Data Migration sector is estimated to grow at a CAGR of 16.8% over the analysis period 2022-2030.</p>
+                                    <footer>- Yahoo Finance</footer>
+                                </blockquote>
+                                <blockquote>
+                                    <p>Over 80% of data migration projects run over time and/or over budget. Cost overruns average 30%. Time overruns average 41%.</p>
+                                    <footer>- Bloor Group</footer>
+                                </blockquote>
+                                
                                 </div>
-                            </div>
+                            </article>
+                            
                         </div>
                         
                     </div>

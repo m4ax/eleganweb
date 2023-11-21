@@ -33,7 +33,7 @@ const footer_links: footer_links_type[] = [
         id: 3,
         title: "Our Company",
         links: [
-           { title: "News", link: "/blog-details"},
+           { title: "Topics", link: "/topics"},
            { title: "Contact Us", link: "/contact"},
         ]
     }

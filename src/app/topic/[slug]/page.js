@@ -22,7 +22,8 @@ export default function BlogArea({ params }) {
                     <section className="blog-area gray-bg pt-120 pb-80">
                     <div className="container">
                        <div className="row">
-                          <div className="col-lg-8">
+                        <div class="col-1 d-none d-md-block"></div>
+                          <div className="col-12 col-md-10">
                              <article className="postbox post format-image mb-40">
                                 <div className="postbox__thumb">
                                   <Image src={blog.image.filePath.replace('../public', '')} alt="blog image" width={blog.image.width} height={blog.image.height} />
@@ -39,10 +40,7 @@ export default function BlogArea({ params }) {
                              </article>
                           </div>
         
-        
-                          <div className="col-lg-4">
-                                <PopularNewsFeeds /> 
-                        </div>
+                          <div class="col-1 d-none d-md-block"></div>
                        </div>
                     </div>
                  </section>

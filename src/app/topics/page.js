@@ -5,19 +5,19 @@ import { compareDesc, parseISO } from "date-fns";
 
 const index = () => {
 
-  const sortBlogs = (blogs) => {
-    return blogs
-      .slice()
-      .sort((a, b) =>
-        compareDesc(parseISO(a.publishedAt), parseISO(b.publishedAt))
-      );
-  };
+  // const sortBlogs = (blogs) => {
+  //   return blogs
+  //     .slice()
+  //     .sort((a, b) =>
+  //       compareDesc(parseISO(a.publishedAt), parseISO(b.publishedAt))
+  //     );
+  // };
 
-  const recentBlog = sortBlogs(allBlogs).slice(0, 1);
+  // const recentBlog = sortBlogs(allBlogs).slice(0, 1);
 
   return (
     <>
-      <Blog blogs={recentBlog}/>
+      <Blog />
     </>
   );
 };
