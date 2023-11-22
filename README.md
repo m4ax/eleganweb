@@ -1,5 +1,6 @@
 # To Do 
 
+
 ## Automate blog tasks
 
 Upload to server to automate (Matthew)
@@ -41,7 +42,7 @@ I set up node-cron to schedule. This is at bottom of generate.js.
 This was the best way I thought to automate.
 
 
-The point of this blog automation is to drive traffic but mainly enhance our site's relevance in Google's search results for data migration / our niche authority
+The point of the blogs is to drive traffic but mainly enhance our site's relevance in Google's search results for data migration / our niche authority
 
 
 
