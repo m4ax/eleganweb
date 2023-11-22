@@ -22,7 +22,7 @@ Upload to server to automate (Matthew)
 
 ----------
 
-## How it works
+# How it works
 
 I have written scripts. No server code. 
 
