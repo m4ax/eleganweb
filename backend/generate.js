@@ -6,6 +6,8 @@ import path from "path";
 import { fileURLToPath } from "url";
 import ideas from './topics/ideas.json' assert { type: 'json' };
 import generateImage from "./imageGenerator.js";
+import cron from 'node-cron'
+
 
 
 import completedIdeas from './topics/completed.json' assert { type: 'json' };
@@ -63,4 +65,4 @@ async function generateAndSaveBlog() {
 generateAndSaveBlog();
 
 // // Schedule blog to run once a day (at midnight)
-// cron.schedule('0 0 * * *', generateAndSaveBlog);
+cron.schedule('0 0 * * *', generateAndSaveBlog);
