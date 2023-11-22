@@ -9,6 +9,7 @@ Upload to server to automate (Matthew)
 ## Minor Fixes - that I don't like about the website:
 
 
+- Compress generated imgs
 - Spacing
 - Pricing Footer
 - Set up email
