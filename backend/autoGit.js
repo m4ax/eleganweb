@@ -21,5 +21,4 @@ async function gitCommitAndPush() {
   }
 }
 
-// Call this function after blog content generation
-gitCommitAndPush();
+export default gitCommitAndPush;

@@ -7,6 +7,7 @@ import { fileURLToPath } from "url";
 import ideas from './topics/ideas.json' assert { type: 'json' };
 import generateImage from "./imageGenerator.js";
 import cron from 'node-cron'
+import gitCommitAndPush from "./autoGit.js";
 
 
 
@@ -54,6 +55,7 @@ async function generateAndSaveBlog() {
       // Remove the used topic from ideas.json
       ideas.shift();
       fs.writeFileSync("./topics/ideas.json", JSON.stringify(ideas, null, 2), "utf-8");
+      await gitCommitAndPush();
     } catch (error) {
       console.error("Error generating blog:", error);
     }
@@ -61,6 +63,8 @@ async function generateAndSaveBlog() {
     console.log("No more blog ideas!");
   }
 }
+
+
 
 generateAndSaveBlog();
 
