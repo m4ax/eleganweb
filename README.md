@@ -30,12 +30,12 @@ I set up node-cron to schedule. This is at bottom of generate.js.
 
 - node generate.js
 
-Fetches a blog title from ideas.json.
-Generates a blog banner using DALL-E, saving it to /public/img/blog/generated in the frontend.
-Passes the image location and title to openai.js to create content with GPT-4.
-Saves the generated content in /posts on the frontend in mdx.
-On successful generation, moves the title from ideas.json to completed.json.
-Automatically pushes changes to Git. This triggers a server restart, updating our website elegan.io with new content and refreshing the sitemap for dynamic pages.
+- Fetches a blog title from ideas.json.
+- Generates a blog banner using DALL-E, saving it to /public/img/blog/generated in the frontend.
+- Passes the image location and title to openai.js to create content with GPT-4.
+- Saves the generated content in /posts on the frontend in mdx.
+- On successful generation, moves the title from ideas.json to completed.json.
+- Automatically pushes changes to Git. This triggers a server restart, updating our website elegan.io with new content and refreshing the sitemap for dynamic pages.
 
 
 This was the best way I thought to automate.
