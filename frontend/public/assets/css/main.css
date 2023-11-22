@@ -1547,7 +1547,7 @@ span.price-colors {
 
 	font-size: 40px;
 	padding-bottom: 20px;
-	padding-top: 10px;
+	padding-top: 20px;
 
 }
 
@@ -1562,9 +1562,16 @@ span.price-colors {
 .postbox__text p {
 
 	font-size: 18px;
-	padding-bottom: 20px;
-	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
 
+}
+
+.postbox__text li {
+
+	font-size: 16px;
+	padding-bottom: 10px;
+	padding-top: 5px;
 }
 
 .p-50 {

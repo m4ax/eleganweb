@@ -8,31 +8,30 @@ const OPENAI_API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
 
 
 
-async function getModelRecipe() {
 
-    const topic = "Data Migration in the transport sector.";
+async function getModelRecipe(topic, imageFileName) {
 
     const initialSystemMessage = {
         role: "system",
         content: `Create a blog post on a specified topic with the following front matter included at the top of the markdown content:
     
     ---
-    title: 
-    publishedAt: 
-    updatedAt:
-    description: 
+    title: ""
+    publishedAt: ""
+    updatedAt: ""
+    description: ""
     isPublished: true
-    image: ""
+    image: "../../public/assets/img/blog/generated/${imageFileName}"
     tags: 
       - 
       - 
       - 
     ---
     
-    The blog should be under 500 words, combining paragraphs and bullet points for easy readability. It should be optimized for SEO to rank well on Google and formatted in markdown.`
+    The blog should be over 1000 words, combining paragraphs and bullet points for easy readability. It should be optimized for SEO to rank well on Google and formatted in markdown.`
     };
     
-    const userMessageContent = `Please write a comprehensive and engaging blog post about the challenges of data migration in the transport sector. The content should explore the topic in depth, provide useful insights, and engage the reader with a conversational tone. Ensure the use of relevant keywords for SEO and include practical examples or case studies. The blog should be structured with clear headings and subheadings, and use bullet points for key takeaways.`;
+    const userMessageContent = `Please write a comprehensive and engaging blog post about ${topic}. The content should explore the topic in depth, provide useful insights, and engage the reader with a conversational tone. Ensure the use of relevant keywords for SEO and include practical examples or case studies. The blog should be structured with clear headings and subheadings, and use bullet points for key takeaways.`;
     
     const userMessage = {
         role: "user",
@@ -49,7 +48,7 @@ async function getModelRecipe() {
         const response = await axios.post(OPENAI_API_ENDPOINT, body, {
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": `Bearer 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`
+                "Authorization": `Bearer ${myKey}`
             }
         });
 
