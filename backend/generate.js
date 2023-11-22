@@ -56,4 +56,4 @@ async function generateAndSaveBlog() {
 generateAndSaveBlog();
 
 // Schedule blog to run once a day (at midnight)
-// cron.schedule('0 0 * * *', generateAndSaveBlog);
+cron.schedule('0 0 * * *', generateAndSaveBlog);
