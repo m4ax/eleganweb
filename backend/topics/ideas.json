@@ -1,9 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "Streamlining Complex Data Transfers: FTP to Cloud Migration Strategies"
-  },
-  {
     "id": 2,
     "title": "Scaling Your Data Strategy: Must-Know Data Onboarding Practices for 2023"
   },
@@ -131,7 +127,10 @@
     "id": 36,
     "title": "Navigating the Realm of Data Ingestion for Financial Services"
   },
-  { "id": 37, "title": "API Revolution: Tearing Down Data Silos for Good" },
+  {
+    "id": 37,
+    "title": "API Revolution: Tearing Down Data Silos for Good"
+  },
   {
     "id": 41,
     "title": "Decoding Customer Frustrations with CSV Import Issues"
@@ -212,7 +211,10 @@
     "id": 68,
     "title": "Achieving Scalable Migrations: The Power of Machine Learning Models"
   },
-  { "id": 69, "title": "The Intricacies of AI-Enabled Data Type Conversion" },
+  {
+    "id": 69,
+    "title": "The Intricacies of AI-Enabled Data Type Conversion"
+  },
   {
     "id": 70,
     "title": "Real-Time Data Sync: The Next Frontier in AI-Assisted Migration"
@@ -301,7 +303,10 @@
     "id": 97,
     "title": "Redefining Data Conversion Standards with AI Algorithms"
   },
-  { "id": 98, "title": "AI-Powered Data Migration: Bridging the Skills Gap" },
+  {
+    "id": 98,
+    "title": "AI-Powered Data Migration: Bridging the Skills Gap"
+  },
   {
     "id": 99,
     "title": "Harnessing the Synergy Between AI and IoT in Data Migration"
@@ -442,8 +447,9 @@
     "id": 135,
     "title": "AI and the Elimination of Data Duplicity in Migration Processes"
   },
-  { "id": 136,
-   "title": "The AI Solution to Multi-Tenancy Data Migrations" 
+  {
+    "id": 136,
+    "title": "The AI Solution to Multi-Tenancy Data Migrations"
   },
   {
     "id": 137,
@@ -497,7 +503,10 @@
     "id": 152,
     "title": "AI and IoT: Managing Device Data in Large-Scale Migrations"
   },
-  { "id": 153, "title": "The AI-Enabled Path to Zero-Error Data Migrations" },
+  {
+    "id": 153,
+    "title": "The AI-Enabled Path to Zero-Error Data Migrations"
+  },
   {
     "id": 154,
     "title": "Embracing AI for Hybrid Cloud Data Migrations and its Challenges"

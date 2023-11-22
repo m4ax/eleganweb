@@ -7,11 +7,17 @@ import { fileURLToPath } from "url";
 import ideas from './topics/ideas.json' assert { type: 'json' };
 import generateImage from "./imageGenerator.js";
 
+
 import completedIdeas from './topics/completed.json' assert { type: 'json' };
 // import cron from "node-cron";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+
+function tidyTopic(text) {
+    return text.replace(/:/g, ''); // Removes all colons
+}
 
 // Function to generate and save blog content
 async function generateAndSaveBlog() {
@@ -23,8 +29,9 @@ async function generateAndSaveBlog() {
       const imageFileName = path.basename(imagePath);
 
       const blogContent = await getModelRecipe(topic, imageFileName);
-
-      const slug = slugify(topic.toLowerCase());
+    
+      const cleanedTopic = tidyTopic(topic)
+      const slug = slugify(cleanedTopic);
       const blogDir = path.join(__dirname, "../frontend/posts", slug);
       const filePath = path.join(blogDir, "index.mdx");
 
@@ -55,5 +62,5 @@ async function generateAndSaveBlog() {
 
 generateAndSaveBlog();
 
-// Schedule blog to run once a day (at midnight)
-cron.schedule('0 0 * * *', generateAndSaveBlog);
+// // Schedule blog to run once a day (at midnight)
+// cron.schedule('0 0 * * *', generateAndSaveBlog);

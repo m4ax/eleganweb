@@ -31,7 +31,9 @@ async function getModelRecipe(topic, imageFileName) {
     The blog should be over 1000 words, combining paragraphs and bullet points for easy readability. It should be optimized for SEO to rank well on Google and formatted in markdown.`
     };
     
-    const userMessageContent = `Please write a comprehensive and engaging blog post about ${topic}. Our company, Elegan offers data migration with AI integration. Auto column map, in built transformation functions, one click error fixes, custom validations, auto data cleaning. We offer pipeline and onboarder. We accept CSV, JSON, SQL. Add this in where necessary. Don't overdo it. The content should explore the topic in depth, provide useful insights, and engage the reader with a conversational tone. Ensure the use of relevant keywords for SEO and include practical examples or case studies. The blog should be structured with clear headings and subheadings, and use bullet points for key takeaways.`;
+    const userMessageContent = `Please write a comprehensive and engaging blog post about ${topic}. Our company, Elegan offers data migration with AI integration. Auto column map, in built transformation functions, one click error fixes, custom validations, auto data cleaning. We offer pipeline and onboarder. We accept CSV, JSON, SQL. Add this in where necessary. Don't overdo it. The content should explore the topic in depth, provide useful insights, and engage the reader with a conversational tone. Ensure the use of relevant keywords and include practical examples or case studies. The blog should be structured with clear headings and subheadings, and use bullet points for key takeaways. 
+    
+    `;
     
     const userMessage = {
         role: "user",

@@ -13,6 +13,10 @@ const openai = new OpenAI(apiKey);
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+function tidyTopic(text) {
+    return text.replace(/:/g, ''); // Removes all colons
+}
+
 async function generateImage(topic) {
     try {
         // Call DALL-E 3 API to generate the image
@@ -35,7 +39,8 @@ async function generateImage(topic) {
         const buffer = Buffer.from(imageResponse.data, 'binary');
 
         // Define the local path for saving the image
-        const imageFileName = slugify(topic) + '.png'; 
+        const cleanTopic = tidyTopic(topic)
+        const imageFileName = slugify(cleanTopic) + '.png'; 
         const imageFilePath = path.join(__dirname, '../frontend/public/assets/img/blog/generated', imageFileName);
 
         // Save the image
