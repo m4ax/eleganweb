@@ -110,7 +110,7 @@ const Uploader = ({style} : any) => {
                         </div>
                         <div className="col-xl-6 col-lg-4">
                             <div className="section-link text-left text-lg-right mb-30">
-                                <a href="#" className="btn btn-soft-border">Learn More</a>
+                                <a href="/uploader" target="_blank" className="btn btn-soft-border">Learn More</a>
                             </div>
                         </div>
                     </div>

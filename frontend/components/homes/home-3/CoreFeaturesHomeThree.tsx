@@ -110,7 +110,7 @@ const CoreFeaturesHomeThree = ({style} : any) => {
                         </div>
                         <div className="col-xl-6 col-lg-4">
                             <div className="section-link text-left text-lg-right mb-30">
-                                <a href="#" className="btn btn-soft-border">Learn More</a>
+                                <a href="/pipeline" className="btn btn-soft-border">Learn More</a>
                             </div>
                         </div>
                     </div>

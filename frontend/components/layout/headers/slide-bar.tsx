@@ -21,7 +21,7 @@ const SlideBar = ({sidebarOppen, setSidebarOppen}: any) => {
                     </div>
                     <div className="contact-list mb-30">
                     <h4>Book a Call</h4>
-                    <a href="https://calendly.com/mxmry" target="_blank">
+                    <a href="https://calendly.com/elegan/discover" target="_blank">
                     <p>Appointment Slots</p>
                     </a>
                     </div>

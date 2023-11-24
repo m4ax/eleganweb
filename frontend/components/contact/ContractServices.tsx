@@ -24,7 +24,7 @@ const contact_service_data: contact_service_data_type[] = [
         title: "Office Hours",
         info: <>Mon - Fri: 09:00am to 07.00pm</>, 
         action: "Contact Us",
-        cta: "https://calendly.com/mxmry"
+        cta: "https://calendly.com/elegan/discover"
     },
     {
         id: 3,
@@ -32,7 +32,7 @@ const contact_service_data: contact_service_data_type[] = [
         title: "Phone Number",
         info: <>Book a meeting with us</>, 
         action: "Call Now",
-        cta: "https://calendly.com/mxmry"
+        cta: "https://calendly.com/elegan/discover"
     },
     {
         id: 4,

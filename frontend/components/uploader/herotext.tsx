@@ -33,7 +33,7 @@ const HeroText = () => {
                                     <h2>{title}</h2>
                                     <h4>{title_2}</h4>
                                     <p>{sm_des}</p>
-                                    <a href="https://calendly.com/mxmry" target="_blank">
+                                    <a href="https://calendly.com/elegan/discover" target="_blank">
                                     <div className="btn btn-2 mt-10" >Get Started Now</div>
                                     </a>
                                 </div>

@@ -32,7 +32,9 @@ const HeroText = () => {
                                 <h2>{about_content2.title}</h2>
                                 <h4>{about_content2.title_2}</h4>
                                 <p>{about_content2.sm_des}</p>
-                                <div className="btn btn-2 mt-10">Get Started Now</div>
+                                <div className="section-link text-left text-lg-right mb-30">
+                                    <a href="https://calendly.com/elegan/discover" target="_blank" className="btn btn-soft-border" >Get Started Now</a>
+                                </div>
                             </div>
                             </div>
                         </div>

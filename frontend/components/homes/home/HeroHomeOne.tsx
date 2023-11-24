@@ -29,8 +29,8 @@ const HeroHomeOne = () => {
                                             {title}
                                         </h2>
                                         <div className="slider-btn wow fadeInUp animated" data-wow-delay="0.9s">
-                                            <a href="#" className="btn">Get Started</a>
-                                            <a href="#" className="btn btn-border">Learn More</a>
+                                            <a href="https://calendly.com/elegan/discover" target="_blank" className="btn">Get Started</a>
+                                            <a href="https://calendly.com/elegan/discover" target="_blank" className="btn btn-border">Learn More</a>
                                         </div>
                                     </div>
                                 </div>

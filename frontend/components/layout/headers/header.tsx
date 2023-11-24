@@ -33,7 +33,7 @@ const HeaderOne = () => {
                                 <button className="info-bar" aria-label="Open menu" onClick={() => setSidebarOppen(true)}><i className="far fa-bars"></i></button>
                             </div>             
                             <div className="header-btn d-none d-md-block">
-                                <a className="btn" href="#"><i className="far fa-phone"></i> Let's Chat</a>
+                                <a className="btn" href="https://calendly.com/elegan/discover" target="_blank"><i className="far fa-phone"></i> Let's Chat</a>
                             </div>
                         </div>
                         <div className="col-12">

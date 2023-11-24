@@ -8,7 +8,7 @@ interface domain_content_type {
 // domain content
 const domain_content: domain_content_type = {
     title: "Facilitate Perfect Data Transfer",
-    sm_des: "Ipsum dolor sit amet, consectetur Lorem adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+    sm_des: ""
 }
 const {title, sm_des}  =  domain_content
 

@@ -89,7 +89,7 @@ const FooterOne = () => {
                             </div>
                             <div className="col-xl-3 col-md-7 col-lg-3">
                                 <div className="footer-btn mb-30">
-                                    <Link href="#" className="btn btn-grad">Get Started Now</Link>
+                                    <Link href="https://calendly.com/elegan/discover" target="_blank" className="btn btn-grad">Get Started Now</Link>
                                 </div>
                             </div>
                         </div>
