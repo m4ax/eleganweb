@@ -28,34 +28,32 @@ const core_features_data_3:core_features_data_3_type[] = [
     {
         id: 2,
         icon: feature_icon_2,
-        title: "Data Analysis",
+        title: "Data Cleaning",
         features: [
             "Messy Data Accepted",
-            "Auto Header Mapping",
+            "AI Understanding",
             "Advanced Error Handling",
-            "Logical Understanding",
+            "Logical Manipulation",
         ]
     },
     {
         id: 3,
         icon: feature_icon_3,
-        title: "Output Schema",
+        title: "Data Validation",
         features: [
-            "Auto Suggestions",
+            "Tailored Validations",
             "Upload Schema",
             "Metadata Identifier",
-            "Advanced Validations",
         ]
     },
     {
         id: 4,
         icon: feature_icon_4,
-        title: "AI Mapping",
+        title: "Transformations",
         features: [
-            "Auto Transformations",
-            "Logical Validation",
-            "Complex Data Types",
-            "Auto Clean Data",
+            "Inbuilt Functions",
+            "Webhooks",
+            "Custom Functions",
         ]
     },
     {
@@ -63,7 +61,7 @@ const core_features_data_3:core_features_data_3_type[] = [
         icon: feature_icon_5,
         title: "AI Suggestions",
         features: [
-            "No Code Solution",
+            "No Code Manipulation",
             "Continuous Learning",
             "Custom Functions",
             "Text to Transformation",

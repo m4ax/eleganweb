@@ -12,16 +12,9 @@ Upload to server to automate (Matthew)
 - Compress generated imgs
 - Spacing
 - Pricing Footer
-- Set up email
-- Make calendly better
+- Set up email (when card comes)
 - Importer needs to be added
-- Alter the features list on homepage.
 - class, className error.
-- Header smaller on blog pages.
-- Title on blog pages.
-- Blogs are listed the wrong way around.
-- Blog image is generated with text 
-
 
 ----------
 
