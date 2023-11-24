@@ -19,7 +19,8 @@ Upload to server to automate (Matthew)
 - class, className error.
 - Header smaller on blog pages.
 - Title on blog pages.
-
+- Blogs are listed the wrong way around.
+- Blog image is generated with text 
 
 
 ----------

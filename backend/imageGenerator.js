@@ -22,7 +22,8 @@ async function generateImage(topic) {
         // Call DALL-E 3 API to generate the image
         const response = await openai.images.generate({
             model: "dall-e-3",
-            prompt: `Blog banner for the topic: ${topic}. Keep it simple. Do not generate any text or words!`,
+            prompt: `Create a visually compelling, text-free image that encapsulates the essence of ${topic}. The image should be suitable for use as a header in a blog, emphasizing imagery related to the topic without any textual elements.`
+            ,
             n: 1,
             size: "1792x1024"
         });
