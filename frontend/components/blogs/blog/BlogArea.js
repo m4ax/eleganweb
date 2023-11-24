@@ -15,35 +15,6 @@ import {  useState } from "react";
 import { allBlogs } from '../../../.contentlayer/generated/Blog/_index.mjs'
 import { compareDesc, parseISO } from "date-fns";
 
-// blog content
-const blog_content =  [ 
-    {
-        id: 1, 
-        cls: "format-image",
-        just_thumb: true,
-        img: blog_img_1,
-        date: "September 15, 2023",
-        post_by: "Diboli B. Joly",
-        comments: "23",
-        title: "But there is a downside. Simply running a search for medical blogs.",
-        sm_des: <>There’s a good chance Everyday Health is the most appropriately named blog on this list
-        because it focuses on the health topics that consistently affect a wide range of people. They also get kudos for
-        addressing the emotional challenges folks face when managing conditions.</>,
-    },
-    {
-        id: 2, 
-        cls: "format-image",
-        just_thumb: true,
-        img: blog_img_1,
-        date: "September 15, 2023",
-        post_by: "Diboli B. Joly",
-        comments: "23",
-        title: "But there is a downside. Simply running a search for medical blogs.",
-        sm_des: <>There’s a good chance Everyday Health is the most appropriately named blog on this list
-        because it focuses on the health topics that consistently affect a wide range of people. They also get kudos for
-        addressing the emotional challenges folks face when managing conditions.</>,
-    },
-] 
 
 const BlogArea = () => {
 
@@ -57,7 +28,7 @@ const BlogArea = () => {
           );
       };
 
-    const [sortedBlogs, setSortedBlogs] = useState(() => sortBlogs(allBlogs));
+      const [sortedBlogs, setSortedBlogs] = useState(() => sortBlogs(allBlogs).reverse());
 
     const [currentPage, setCurrentPage] = useState(0);
     const itemsPerPage = 3;
@@ -65,7 +36,7 @@ const BlogArea = () => {
     const paginatedContent = sortedBlogs.slice(
         currentPage * itemsPerPage,
         (currentPage + 1) * itemsPerPage
-      );
+    );
 
       const goToNextPage = () => {
         setCurrentPage((prevPage) => prevPage + 1);
