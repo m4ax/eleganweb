@@ -22,7 +22,7 @@ export default function App({
   return (
     <html lang="en">
       <head>
-        <title>Elegan Data: Pioneering AI-Powered Data Migration Solutions</title>
+        <title>Elegan: Data Onboarding & Migration Solutions</title>
         <link rel="icon" href="/favicon.png" type="image/png" />
         <link
           href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Rubik:400,500,700"

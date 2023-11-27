@@ -1,18 +1,19 @@
-// import cron from 'node-cron';
+import dotenv from 'dotenv';
+import path from 'path';
+
+// Assuming the first argument is the path to the .env file
+const envPath = process.argv[2];
+dotenv.config({ path: envPath });
+
 import fs from "fs";
-import getModelRecipe from "./openai.js"; // Import your OpenAI API call function
+import getModelRecipe from "./openai.js"; 
 import slugify from "slugify";
-import path from "path";
 import { fileURLToPath } from "url";
 import ideas from './topics/ideas.json' assert { type: 'json' };
 import generateImage from "./imageGenerator.js";
 import cron from 'node-cron'
 import gitCommitAndPush from "./autoGit.js";
-
-
-
 import completedIdeas from './topics/completed.json' assert { type: 'json' };
-// import cron from "node-cron";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -67,3 +68,8 @@ async function generateAndSaveBlog() {
 
 
 generateAndSaveBlog();
+
+
+cron.schedule('0 8 * * *', generateAndSaveBlog, {
+  scheduled: true,
+});
