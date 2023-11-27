@@ -84,7 +84,7 @@ const FooterOne = () => {
                             <div className="col-xl-3 col-md-5 col-lg-3">
                                 <div className="footer-left-info mb-30">
                                     <h5>{price_title}</h5>
-                                    <h2>${price}<span>/record*</span></h2>
+                                    <h2>£{price}<span>/record*</span></h2>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-md-7 col-lg-3">

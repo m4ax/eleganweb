@@ -10,9 +10,9 @@ Upload to server to automate (Matthew)
 
 
 - Compress generated imgs
+- Mockup images 
 - Spacing
 - Pricing Footer
-- Set up email (when card comes)
 - Importer needs to be added
 - class, className error.
 

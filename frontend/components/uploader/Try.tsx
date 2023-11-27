@@ -9,7 +9,7 @@ const IntroVideoArea = () => {
                         <div className="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2">
                             <div className="section-title section-title-white text-center mb-70">
                                 <h2>Explore for yourself</h2>
-                                <h5>(importer replaces dummy video)</h5>
+                                <h5></h5>
                             </div>
                         </div>
                     </div>
