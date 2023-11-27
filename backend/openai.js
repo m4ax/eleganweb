@@ -1,13 +1,7 @@
 import axios from 'axios';
-import dotenv from 'dotenv';
-dotenv.config();
-const myKey = process.env.OPENAI_API_KEY; 
+import config from './config.js';
+const myKey = config.OPENAI_API_KEY; 
 const OPENAI_API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
-
-
-
-
-
 
 async function getModelRecipe(topic, imageFileName) {
 

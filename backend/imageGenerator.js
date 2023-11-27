@@ -1,13 +1,11 @@
 import axios from 'axios';
-import dotenv from 'dotenv';
 import OpenAI from 'openai';
 import slugify from 'slugify';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-
-dotenv.config();
-const apiKey = process.env.OPENAI_API_KEY;
+import config from './config.js';
+const apiKey = config.OPENAI_API_KEY;
 const openai = new OpenAI(apiKey);
 
 const __filename = fileURLToPath(import.meta.url);

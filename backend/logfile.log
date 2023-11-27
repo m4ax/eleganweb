@@ -1,0 +1,26 @@
+(node:1186502) ExperimentalWarning: Import assertions are not a stable feature of the JavaScript language. Avoid relying on their current behavior and syntax as those might change in a future version of Node.js.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1186502) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+file:///mnt/infra/eleganweb/backend/node_modules/openai/index.mjs:26
+            throw new Errors.OpenAIError("The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).");
+                  ^
+
+OpenAIError: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at new OpenAI (file:///mnt/infra/eleganweb/backend/node_modules/openai/index.mjs:26:19)
+    at file:///mnt/infra/eleganweb/backend/imageGenerator.js:11:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+
+Node.js v18.17.1
+(node:1186588) ExperimentalWarning: Import assertions are not a stable feature of the JavaScript language. Avoid relying on their current behavior and syntax as those might change in a future version of Node.js.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1186588) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+file:///mnt/infra/eleganweb/backend/node_modules/openai/index.mjs:26
+            throw new Errors.OpenAIError("The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).");
+                  ^
+
+OpenAIError: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at new OpenAI (file:///mnt/infra/eleganweb/backend/node_modules/openai/index.mjs:26:19)
+    at file:///mnt/infra/eleganweb/backend/imageGenerator.js:11:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+
+Node.js v18.17.1
