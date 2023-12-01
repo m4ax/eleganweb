@@ -1,19 +1,6 @@
-import dotenv from 'dotenv';
 import path from 'path';
-
-// Check if a path argument was provided
-const envPathArgIndex = process.argv.findIndex(arg => arg === '-path');
-const envPath = envPathArgIndex !== -1 ? process.argv[envPathArgIndex + 1] : null;
-
-// Load the .env file if a path was provided
-if (envPath) {
-  dotenv.config({ path: envPath });
-} else {
-  dotenv.config(); // Load from default .env path
-}
-
-
 import fs from "fs";
+import config from "./config.js";
 import getModelRecipe from "./openai.js"; 
 import slugify from "slugify";
 import { fileURLToPath } from "url";
@@ -56,15 +43,15 @@ async function generateAndSaveBlog() {
 
       completedIdeas.completedIdeas.push(topic);
       fs.writeFileSync(
-        "./topics/completed.json",
+        path.join(__dirname, "/topics/completed.json"),
         JSON.stringify(completedIdeas, null, 2),
         "utf-8"
       );
 
       // Remove the used topic from ideas.json
       ideas.shift();
-      fs.writeFileSync("./topics/ideas.json", JSON.stringify(ideas, null, 2), "utf-8");
-      await gitCommitAndPush();
+      fs.writeFileSync(path.join(__dirname, "/topics/ideas.json"),  JSON.stringify(ideas, null, 2), "utf-8");
+      await gitCommitAndPush(__dirname);
     } catch (error) {
       console.error("Error generating blog:", error);
     }
@@ -72,12 +59,4 @@ async function generateAndSaveBlog() {
     console.log("No more blog ideas!");
   }
 }
-
-
-
 generateAndSaveBlog();
-
-
-cron.schedule('0 8 * * *', generateAndSaveBlog, {
-  scheduled: true,
-});
