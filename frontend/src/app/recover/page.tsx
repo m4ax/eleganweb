@@ -1,4 +1,5 @@
 import Recover from "../../../components/recover";
+
 const index = () => {
   return (
     <>
