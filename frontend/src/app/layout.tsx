@@ -9,8 +9,8 @@ if (typeof window !== "undefined") {
 }
 
 export const metadata: Metadata = {
-  title: '...',
-  description: '...',
+  title: 'Elegan | Data Onboarding & Migration Tools',
+  description: 'We facilitate seamless data migration for transferring large volumes of CSV, JSON, and SQL data, tailored to meet the needs of SaaS providers, enterprises, and SMBs',
 }
 
 
