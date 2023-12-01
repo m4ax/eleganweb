@@ -679,7 +679,7 @@ input.main-search-input:-ms-input-placeholder {
 	color: #fff;
 	font-weight: 500;
 }
-.slider-text h2 {
+.slider-text h2, h1 {
 	font-size: 80px;
 	color: #fff;
 	line-height: 1.1;

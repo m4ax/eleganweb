@@ -1,5 +1,4 @@
 import { allBlogs } from '../../../../.contentlayer/generated/Blog/_index.mjs'
-import PopularNewsFeeds from '../../../../components/blogs/PopularNewsFeeds'
 import CategoriesArea from '../../../../components/blogs/CategoriesArea';
 import Image from 'next/image'
 import Tags from '../../../../components/blogs/Tags'

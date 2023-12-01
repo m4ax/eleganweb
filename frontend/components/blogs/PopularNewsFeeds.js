@@ -35,10 +35,10 @@ const PopularNewsFeeds = () => {
                     {recentBlog.map((item, i)  => 
                         <li key={i}>
                             <div className="widget-posts-image">
-                                <Link href="/blog-details"><Image src={item.image.filePath.replace('../public', '')} alt="blog image" width={item.image.width} height={item.image.height} /></Link>
+                                <Link href="/topics"><Image src={item.image.filePath.replace('../public', '')} alt="blog image" width={item.image.width} height={item.image.height} /></Link>
                             </div>
                             <div className="widget-posts-body">
-                                <h6 className="widget-posts-title"><Link href="/blog-details">{item.title}</Link>
+                                <h6 className="widget-posts-title"><Link href="/topics">{item.title}</Link>
                                 </h6>
                                 <div className="widget-posts-meta">{item.time}</div>
                             </div>

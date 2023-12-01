@@ -25,9 +25,9 @@ const HeroHomeOne = () => {
                                         <span className="d-block wow fadeInUp animated" data-wow-delay="0.3s">
                                             {sub_title}
                                         </span>
-                                        <h2 className="wow fadeInUp animated" data-wow-delay="0.6s">
+                                        <h1 className="wow fadeInUp animated" data-wow-delay="0.6s">
                                             {title}
-                                        </h2>
+                                        </h1>
                                         <div className="slider-btn wow fadeInUp animated" data-wow-delay="0.9s">
                                             <a href="https://calendly.com/elegan/discover" target="_blank" className="btn">Get Started</a>
                                             <a href="https://calendly.com/elegan/discover" target="_blank" className="btn btn-border">Learn More</a>
