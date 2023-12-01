@@ -12,11 +12,7 @@ import FooterOne from "../../layout/footers/FooterOne";
 import CoreFeaturesHomeThree from "../home-3/CoreFeaturesHomeThree";
 import SubscriptinHomeThree from "../home-3/SubscriptinHomeThree";
 import IntegrationsHomeThree from "../home-3/IntegrationsHomeThree";
-import MakeBusinessHomeTwo from "../home-2/MakeBusinessHomeTwo";
-import CoreFeaturesHomeTwo from "../home-2/CoreFeaturesHomeTwo";
-import Product from "./product";
 import SimpleSeamless from "./SimpleSeamless";
-import Punchline from "./Punchline";
 import Uploader from "../home-3/Uploader"
 import Secruity from "../home-2/Secruity";
 

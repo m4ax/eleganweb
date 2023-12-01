@@ -1,9 +1,17 @@
 import dotenv from 'dotenv';
 import path from 'path';
 
-// Assuming the first argument is the path to the .env file
-const envPath = process.argv[2];
-dotenv.config({ path: envPath });
+// Check if a path argument was provided
+const envPathArgIndex = process.argv.findIndex(arg => arg === '-path');
+const envPath = envPathArgIndex !== -1 ? process.argv[envPathArgIndex + 1] : null;
+
+// Load the .env file if a path was provided
+if (envPath) {
+  dotenv.config({ path: envPath });
+} else {
+  dotenv.config(); // Load from default .env path
+}
+
 
 import fs from "fs";
 import getModelRecipe from "./openai.js"; 

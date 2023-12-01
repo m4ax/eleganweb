@@ -86,7 +86,7 @@ const BenefitsPipeline = () => {
                                         <Image src={item.img} alt="icon-for-data-migration-services" />
                                     </div>
                                     <div className="services-content">
-                                        <h3><Link href="/service-details">{item.title}</Link></h3>
+                                        <h3>{item.title}</h3>
                                         {/* <p>{item.sm_des}</p> */}
                                     </div>
                                 </div>
