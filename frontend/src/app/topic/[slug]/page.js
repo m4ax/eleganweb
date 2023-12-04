@@ -4,6 +4,36 @@ import Image from 'next/image'
 import Tags from '../../../../components/blogs/Tags'
 import HeaderOne from '../../../../components/layout/headers/header'
 import Breadcrumb from '../../../../components/common/breadcrumbs/breadcrumb';
+ 
+export async function generateMetadata({ params, searchParams }, parent) {
+   // read route params
+   const id = params.id
+  
+   // fetch data
+   const product = allBlogs.find(blog => blog._raw.flattenedPath === params.slug);
+
+   // optionally access and extend (rather than replace) parent metadata
+   const previousImages = (await parent).openGraph?.images || []
+  
+  // Add product image to Open Graph metadata
+  return {
+   title: product.title,
+   description: product.description,
+   keywords: product.keywords,
+   openGraph: {
+     images: [
+       {
+         url: `https://elegan.io${product.image.filePath.replace('../public', '')}`,// Assuming product.image contains the URL of the image
+         width: 800,         // Optionally specify the width
+         height: 600,        // Optionally specify the height
+         alt: 'Product Image', // Optionally specify an alt text
+       },
+       ...previousImages
+     ],
+   },
+ };
+}
+
 
 export default function BlogArea({ params }) {
 

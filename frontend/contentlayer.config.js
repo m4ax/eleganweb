@@ -20,13 +20,13 @@ const Blog = defineDocumentType(() => ({
       type: "image",
       required: true,
     },
-    tags: {
+    keywords: {
       type: "list",
       of: { type: "string" },
       required: true,
     },
     description: {
-      type: "markdown",
+      type: "string",
       required: true,
     },
     isPublished: {

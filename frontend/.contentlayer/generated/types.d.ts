@@ -17,8 +17,8 @@ export type Blog = {
   publishedAt: IsoDateTimeString
   updatedAt: IsoDateTimeString
   image: ImageFieldData
-  tags: string[]
-  description: Markdown
+  keywords: string[]
+  description: string
   isPublished: boolean
   /** Markdown file body */
   body: Markdown

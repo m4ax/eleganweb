@@ -16,10 +16,7 @@ async function getModelRecipe(topic, imageFileName) {
     description: ""
     isPublished: true
     image: "../../public/assets/img/blog/generated/${imageFileName}"
-    tags: 
-      - 
-      - 
-      - 
+    keywords: ["", "", "", "", "", "", "", "", "", ""]
     ---
     
     The blog should be over 1000 words, start with an h1, combining h2, h3, paragraphs and bullet points for easy readability. It should be optimized for SEO to rank well on Google and formatted in markdown.`
