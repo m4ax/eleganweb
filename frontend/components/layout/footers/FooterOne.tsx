@@ -57,7 +57,7 @@ const footer_content: footer_content_type ={
     title: "Book a Quick Call with an Expert.",
     price_title: "Starting At Only",
     price: "0.00003",
-    info_us: "Streamline data migration by automating cleaning, transformation, and verification processes.",
+    info_us: "We facilitate seamless data migration for transferring large volumes of CSV, JSON, and SQL data, tailored to meet the needs of SaaS providers, enterprises, and SMBs",
     address: "Hatherley Court, Cheltenham, GL51 3AQ",
     mail :"info@elegan.io",
     phone: "+44 7424 530231",
