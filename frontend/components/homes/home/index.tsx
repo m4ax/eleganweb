@@ -26,7 +26,7 @@ const HomeOne = () => {
         <DomainSearchHomeTwo />
         <TestimonailHomeOne />
         <CoreFeaturesHomeThree />
-        <PipelinePunch />
+        {/* <PipelinePunch /> */}
         <Secruity />
         <Uploader />
         <IntegrationsHomeThree />
