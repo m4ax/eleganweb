@@ -9,7 +9,7 @@ const testimonial_data: testimonial_data_type[] = [
     {
         id: 1,
         avatar: testimonial_avatart_1,
-        title: "Data Complexity",
+        title: "Complexity",
         sub_title: "We can handle dirty data.",
         sm_des: "Worried about semi-structured or 'messy' data? Our AI Context Validation & Transformation system intelligently comprehends and restructures complex data formats. We specialize in detecting and correcting errors, automatically mapping and cleaning data. Our user-friendly tools enable non-technical users to confidently navigate and transform data, ensuring accurate and logical data organization.",
     },
