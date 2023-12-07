@@ -19,8 +19,8 @@ const DomainSearchHomeTwo = () => {
             <section className="pt-170 pb-40">
                 <div className="container">
                     <div className="row ">
-                        <div className="col-xl-6 offset-xl-3">
-                            <div className="section-title text-center mb-20">
+                        <div className="col-xl-8 offset-xl-2">
+                            <div className="section-title text-center mb-80">
                                 <h2>We help companies migrate, clean and verify data.</h2>
                             </div>
                         </div>

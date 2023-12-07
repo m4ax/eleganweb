@@ -77,25 +77,25 @@ const TestimonailHomeOne = ({style} : any) => {
             <section className={`testimonail-area ${style ? "testimonail-area-server server-bg" : "grad-bg" } pt-115 pb-120`} >
                 <div className="container">
                     <div className="row">
-                        <div className="col-xl-6 col-lg-8">
-                            <div className="section-title section-title-white mb-70">
-                                <h2>{title}</h2>
-                                <p>{sm_des}</p>
+                        <div className="col-xl-8 col-lg-8 mx-auto">
+                            <div className="section-title section-title-white mb-70 text-center">
+                                <h2 className="pb-30">Addressing Key Data Migration Challenges</h2>
+                                <p>Our expertise lies in simplifying complex data challenges through advanced data ingestion tools and systems, including API data ingestion and no-code data pipelines. We specialize in seamless data aggregation and transformation, offering robust no-code ETL processes and automatic CSV column mapping. Our cutting-edge data wrangling and automated data cleansing technologies ensure efficient, error-free data management</p>
                             </div>
                         </div>
                     </div>
                        <div className="row activ-testimonai wow fadeInUp  slick-initialized slick-slider animated">
-                            <button onClick={handlePrevClick} type="button" className="slick-prev slick-arrow">
+                            {/* <button onClick={handlePrevClick} type="button" className="slick-prev slick-arrow">
                                 <i className="fas fa-arrow-left"></i>
                             </button>
                             <button onClick={handleNextClick} type="button" className="slick-next slick-arrow">
                                 <i className="fas fa-arrow-right"></i>
-                            </button> 
-                            <Slider {...setting} ref={sliderRef} data-wow-delay="0.3s">
+                            </button>  */}
+         
                                 {testimonial_data.map((item, i)   => 
-                                    <div key={i} className="col-xl-12">
+                                    <div key={i} className="col-xl-4">
                                         <div className={`${style &&  "wraper_style" } testimonail-wraper mb-30`}>
-                                            <div className="testimonail-titles">
+                                            <div className="testimonail-titles text-center">
                                                 <div className="testimonail-icon">
                                                     <i className="fa fa-star"></i>
                                                     <i className="fa fa-star"></i>
@@ -103,20 +103,15 @@ const TestimonailHomeOne = ({style} : any) => {
                                                     <i className="fa fa-star"></i>
                                                     <i className="fa fa-star"></i>
                                                 </div>
-                                                <span>{item.title}</span>
+                                                <h2>{item.title}</h2>
+                                                <h6>{item.sub_title}</h6>
                                             </div>
                                             <p>{item.sm_des} </p>
-                                            <div className="testimonail-author">
-                                                <div className="testimonail-img">
-                                                    <Image src={item.avatar} alt="testimonial-provider" />
-                                                </div>
-                                                <h5>{item.name}</h5>
-                                                <span>{item.job_title}</span>
-                                            </div>
+                                           
                                         </div>
                                     </div>                        
                                 )}                     
-                            </Slider> 
+                        
                        </div>
 
 

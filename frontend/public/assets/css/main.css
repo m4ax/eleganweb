@@ -1219,7 +1219,9 @@ span.price-colors {
 /* testimonail area */
 .testimonail-icon {
 	display: inline-block;
+	margin-bottom: 20px;
 }
+
 .testimonail-icon i {
 	color: #ff921e;
 }
@@ -1232,6 +1234,8 @@ span.price-colors {
 }
 .testimonail-author {
 	overflow: hidden;
+	justify-content: center;
+	align-items: center;
 }
 .testimonail-wraper {
 	background: #fff;

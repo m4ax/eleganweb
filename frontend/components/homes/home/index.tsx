@@ -23,6 +23,7 @@ const HomeOne = () => {
       <main>
         <HeroHomeOne />
         <DomainSearchHomeTwo />
+        <TestimonailHomeOne />
         <CoreFeaturesHomeThree />
         <Secruity />
         <Uploader />
