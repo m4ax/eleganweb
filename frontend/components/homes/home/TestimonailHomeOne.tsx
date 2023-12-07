@@ -84,7 +84,7 @@ const TestimonailHomeOne = ({style} : any) => {
                             </div>
                         </div>
                     </div>
-                       <div className="row activ-testimonai wow fadeInUp  slick-initialized slick-slider animated">
+                       <div className="row activ-testimonai wow fadeInUp">
                             {/* <button onClick={handlePrevClick} type="button" className="slick-prev slick-arrow">
                                 <i className="fas fa-arrow-left"></i>
                             </button>

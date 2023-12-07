@@ -15,6 +15,7 @@ import IntegrationsHomeThree from "../home-3/IntegrationsHomeThree";
 import SimpleSeamless from "./SimpleSeamless";
 import Uploader from "../home-3/Uploader"
 import Secruity from "../home-2/Secruity";
+import PipelinePunch from './PipelinePunch'
 
 const HomeOne = () => {
   return (
@@ -25,11 +26,12 @@ const HomeOne = () => {
         <DomainSearchHomeTwo />
         <TestimonailHomeOne />
         <CoreFeaturesHomeThree />
+        <PipelinePunch />
         <Secruity />
         <Uploader />
         <IntegrationsHomeThree />
         <SimpleSeamless line1="It's Simple" line2="It's Seamless" />
-        {/* <SubscriptinHomeThree /> */}
+        <SubscriptinHomeThree />
         {/* <PricingHomeOne /> */}
         {/* <Product /> */}
 

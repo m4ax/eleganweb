@@ -660,6 +660,11 @@
 	background-image: -ms-linear-gradient( 90deg, rgb(54,0,175) 0%, rgb(50,0,205) 100%);
 	background-image: linear-gradient( 90deg, rgb(54,0,175) 0%, rgb(50,0,205) 100%);
 }
+
+.pipe-bg {
+
+
+}
 .bg-price {
 	background-image: -moz-linear-gradient( 0deg, rgb(0,23,142) 0%, rgb(0,77,205) 100%);
 	background-image: -webkit-linear-gradient( 0deg, rgb(0,23,142) 0%, rgb(0,77,205) 100%);
