@@ -116,14 +116,19 @@ const CoreFeaturesHomeThree = ({style} : any) => {
                         </div>
                     </div>
         
-                    {/* <div className="row mx-auto">
+                    <div className="col-xl-10 offset-xl-1 col-l-8 offset-l-1 col-m-4 text-center pb-60">
+                     <p className="pipe-p">{sm_des}</p>
+                    </div>
+
+                    <div className="container justify-content-center">
+                    <div className="row mx-auto">
                         {core_features_data_3.map((item, i) => 
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6">
                                 <div className="services-box style_3 mb-60 wow fadeInUp p-3" data-wow-delay="0.3s">
-                                    <div className="services-icon mb-35">
-                                        <Image src={item.icon} alt="elegan-data-migration" />
+                                    <div className="services-icon mb-35 " style={{ textAlign: 'center' }}>
+                                        <Image src={item.icon} alt="icon-for-data-migration" />
                                     </div>
-                                    <div className="services-content service-content-three ">
+                                    <div className="services-content service-content-three  ">
                                         <h4>{item.title}</h4>
                                         <ul>
                                             {item.features.map((feature, index ) => <li key={index}>{feature}</li>)} 
@@ -132,11 +137,10 @@ const CoreFeaturesHomeThree = ({style} : any) => {
                                 </div>
                             </div>                        
                         )}
-                    </div> */}
+                    </div>
                 </div>
-                <div className="col-xl-6 offset-xl-3 col-l-4 col-m-4 text-center">
-                     <p className="pipe-p">{sm_des}</p>
                 </div>
+                
             </section>
         </>
     );

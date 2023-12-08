@@ -89,7 +89,7 @@ interface core_features_content_type {
 }
 const core_features_content: core_features_content_type = {
     title: "Why Choose Us",
-    title_2: "With Uploader",
+    title_2: "Introducing Uploader",
     sm_des: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 }
 const {title, title_2, sm_des} = core_features_content
@@ -97,17 +97,17 @@ const {title, title_2, sm_des} = core_features_content
 const Uploader = ({style} : any) => {
     return (
         <>
-            <section className="core-features-area pt-115 pb-50">
+            <section className="core-features-area pt-40 pb-50">
                 <div className="container justify-content-center">
                     <div className="row align-items-center mb-100">
-                        <div className="col-xl-6 col-lg-8">
+                        <div className="col-xl-8 col-lg-8">
                             <div className="section-title mb-50">
 
                                 <h2>{style ? title : title_2}</h2>
                                 {/* <p>{sm_des}</p> */}
                             </div>
                         </div>
-                        <div className="col-xl-6 col-lg-4">
+                        <div className="col-xl-4 col-lg-4">
                             <div className="section-link text-left text-lg-right mb-30">
                                 <a href="/uploader" target="_blank" className="btn btn-soft-border">Learn More</a>
                             </div>
@@ -118,26 +118,6 @@ const Uploader = ({style} : any) => {
                     </div>
                 </div>
                     <SubscriptinHomeThree />
-
-                    <div className="container justify-content-center">
-                    <div className="row mx-auto">
-                        {core_features_data_3.map((item, i) => 
-                            <div key={i} className="col-xl-4 col-lg-4 col-md-6">
-                                <div className="services-box style_3 mb-60 wow fadeInUp p-3" data-wow-delay="0.3s">
-                                    <div className="services-icon mb-35 " style={{ textAlign: 'center' }}>
-                                        <Image src={item.icon} alt="icon-for-data-migration" />
-                                    </div>
-                                    <div className="services-content service-content-three  ">
-                                        <h4>{item.title}</h4>
-                                        <ul>
-                                            {item.features.map((feature, index ) => <li key={index}>{feature}</li>)} 
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>                        
-                        )}
-                    </div>
-                </div>
             </section>
         </>
     );

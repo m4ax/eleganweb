@@ -16,11 +16,11 @@ const {title, sm_des}  =  domain_content
 const Secruity = () => {
     return (
         <>
-            <section className="pt-150 pb-20">
+            <section className="pt-150">
                 <div className="container">
                     <div className="row ">
-                        <div className="col-xl-8 offset-xl-2">
-                            <div className="section-title text-center mb-5 mt-20">
+                        <div className="col-xl-8 offset-xl-2 mb-50">
+                            <div className="section-title text-center mb-5 mt-20 ">
                                 <h2>{title}</h2>
                                 {/* <p>{sm_des}</p> */}
                             </div>
