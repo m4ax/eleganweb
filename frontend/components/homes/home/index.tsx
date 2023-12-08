@@ -16,6 +16,7 @@ import SimpleSeamless from "./SimpleSeamless";
 import Uploader from "../home-3/Uploader"
 import Secruity from "../home-2/Secruity";
 import PipelinePunch from './PipelinePunch'
+import MakeBusinessHomeTwo from "../home-2/MakeBusinessHomeTwo";
 
 const HomeOne = () => {
   return (
@@ -26,12 +27,14 @@ const HomeOne = () => {
         <DomainSearchHomeTwo />
         <TestimonailHomeOne />
         <CoreFeaturesHomeThree />
-        {/* <PipelinePunch /> */}
-        <Secruity />
-        <Uploader />
+        <PipelinePunch />
         <IntegrationsHomeThree />
-        <SimpleSeamless line1="It's Simple" line2="It's Seamless" />
-        <SubscriptinHomeThree />
+        <MakeBusinessHomeTwo />
+        <Secruity />
+        
+        <Uploader />
+
+        {/* <SimpleSeamless line1="It's Simple" line2="It's Seamless" /> */}
         {/* <PricingHomeOne /> */}
         {/* <Product /> */}
 

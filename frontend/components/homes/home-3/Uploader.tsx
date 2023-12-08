@@ -6,6 +6,7 @@ import feature_icon_4 from "../../../public/assets/img/icon/cf4.png";
 import feature_icon_5 from "../../../public/assets/img/icon/cf5.png"; 
 import feature_icon_6 from "../../../public/assets/img/icon/cf6.png"; 
 import product1 from '../../../public/assets/img/bg/product1.png'
+import SubscriptinHomeThree from "./SubscriptinHomeThree";
 
 interface core_features_data_3_type {
     id: number;
@@ -115,6 +116,10 @@ const Uploader = ({style} : any) => {
                     <div className="mb-100">
                     <Image src={product1} className="img-fluid mb-100" alt="AI Data Cleaning Tool Screenshot"/>
                     </div>
+                </div>
+                    <SubscriptinHomeThree />
+
+                    <div className="container justify-content-center">
                     <div className="row mx-auto">
                         {core_features_data_3.map((item, i) => 
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6">

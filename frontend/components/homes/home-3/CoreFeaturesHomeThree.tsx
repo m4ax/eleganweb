@@ -90,8 +90,8 @@ interface core_features_content_type {
 }
 const core_features_content: core_features_content_type = {
     title: "Why Choose Us",
-    title_2: "With Pipeline",
-    sm_des: "Automate a scheduled workflow that cleans and maps fresh data to your desired schema. Get alerted if there is an issue, and fix with zero coding knowledge."
+    title_2: "Introducing Pipeline",
+    sm_des: "Our no-code data pipeline simplifies the complex ETL (Extract, Transform, Load) workflow, delivering a seamless experience from data ingestion to data transformation. With Pipeline, you can harness robust data ingestion tools and APIs to facilitate real-time data flow, ensuring your datasets are constantly refreshed and up-to-date."
 }
 const {title, title_2, sm_des} = core_features_content
 
@@ -100,6 +100,7 @@ const CoreFeaturesHomeThree = ({style} : any) => {
         <>
             <section className="core-features-area pt-115 pb-50">
                 <div className="container">
+                <Image src={product1} className="img-fluid mt-50 mb-100" alt="AI-Data-Cleaning-Tool-Screenshot"/>
                     <div className="row align-items-center mb-40">
                         <div className="col-xl-6 col-lg-8">
                             <div className="section-title mb-50">
@@ -114,7 +115,7 @@ const CoreFeaturesHomeThree = ({style} : any) => {
                             </div>
                         </div>
                     </div>
-                    <Image src={product1} className="img-fluid mt-50 mb-100" alt="AI-Data-Cleaning-Tool-Screenshot"/>
+        
                     {/* <div className="row mx-auto">
                         {core_features_data_3.map((item, i) => 
                             <div key={i} className="col-xl-4 col-lg-4 col-md-6">
@@ -132,6 +133,9 @@ const CoreFeaturesHomeThree = ({style} : any) => {
                             </div>                        
                         )}
                     </div> */}
+                </div>
+                <div className="col-xl-6 offset-3 text-center">
+                     <p className="pipe-p">{sm_des}</p>
                 </div>
             </section>
         </>

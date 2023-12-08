@@ -253,8 +253,7 @@ label {
 .btn.btn-three {
 	background: #fff;
 	color: #666;
-	border: none;
-}
+	border: none;}
 .btn.btn-three:hover {
 	border: none;
 	background-image: -moz-linear-gradient( 0deg, rgb(0,77,205) 0%, rgb(0,186,255) 100%);
@@ -264,6 +263,18 @@ label {
 	box-shadow: 0px 16px 32px 0px rgba(65, 140, 255, 0.4);
 	color: #fff;
 }
+.btn.btn-three.btn-border-three {
+	border: 2px solid #dbdcff;
+}
+.flash {
+	margin-bottom: 20px;
+}
+
+.pipe-p {
+	font-size: 18px;
+
+}
+
 .btn.btn-three.btn-border-three {
 	border: 2px solid #dbdcff;
 }

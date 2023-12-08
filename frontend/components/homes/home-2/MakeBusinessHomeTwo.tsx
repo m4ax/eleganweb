@@ -13,13 +13,13 @@ interface make_business_content_type {
 
 const make_business_content:make_business_content_type = {
     bg_img: "/assets/img/bg/makebg.jpg",
-    sub_title: "core features",
-    title: "Make Your Business On Right Way",
+    sub_title: "Data Importer Solution",
+    title: "Facing Challenges with Client Data Onboarding in Your SaaS Platform?",
     sm_des: "We're here to help. Get in touch and we'll get back to you as soon as we can.",
     fetures: [
-        "Our easy-to-use control panel and API let you spend",
-        "We've been supporting WordPress since the beginning.",
-        "Perfect for large sites or agencies managing multiple clients.",
+        "Inconsistent Data Formats and Quality?",
+        "Back-and-Forth Client Support Queries?",
+        "Facing Long Lead Times in Client Onboarding?",
     ],  
 
 }
@@ -47,7 +47,7 @@ const MakeBusinessHomeTwo = () => {
                                  </ul>
                             </div>
                             <div className="make-btn">
-                                <Link href="#" className="btn btn-soft-border">Get Started Now</Link>
+                                <Link href="/uploader" className="btn btn-soft-border">Get Started Now</Link>
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-5">
