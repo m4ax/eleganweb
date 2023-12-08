@@ -8,7 +8,7 @@ interface hero_content_type {
 const hero_content: hero_content_type = {
     bg_img: "/assets/img/slider/slide-bg.png",
     sub_title: "Streamline Any Data Migration Process",
-    title: "Streamline Data Migration & Onboarding",
+    title: "Data Migration & Onboarding Solutions",
 }
 const {bg_img, sub_title, title} = hero_content
 

@@ -14,7 +14,7 @@ const about_content: about_content_type = {
 
 const about_content2: about_content_type = {
     sub_title: "Effortless Client Onboarding",
-    title: "Drastically Reduce Support Tickets",
+    title: "Reduce Support Tickets",
     title_2: "Let clients fix data without exporting.",
     sm_des: <>Uploader is engineered to minimize back-and-forth support queries. Its intuitive interface and automated processes mean clients can easily onboard their data without encountering common hurdles, drastically reducing the number of support tickets your team handles and freeing up resources for other critical tasks.</>
 }

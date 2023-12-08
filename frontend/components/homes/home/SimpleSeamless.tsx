@@ -17,7 +17,7 @@ const SimpleSeamless: React.FC<title_content_type> = ({ line1, line2 }) =>  {
                 <section className="core-features-area white-bg pt-135 pb-20">
                     <div className="container-fluid">
                         <div className="row align-items-center mb-70">
-                            <div className="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2">
+                            <div className="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-m-6 col-s-6">
                                 <div className="section-title text-center mb-20">
                                     <h2>{line1}</h2>
                                 </div>
