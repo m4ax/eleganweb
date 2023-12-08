@@ -102,14 +102,14 @@ const CoreFeaturesHomeThree = ({style} : any) => {
                 <div className="container">
                 <Image src={product1} className="img-fluid mt-50 mb-100" alt="AI-Data-Cleaning-Tool-Screenshot"/>
                     <div className="row align-items-center mb-40">
-                        <div className="col-xl-6 col-lg-8">
+                        <div className="col-xl-8 col-lg-6">
                             <div className="section-title mb-50">
 
                                 <h2>{style ? title : title_2} </h2>
                                 {/* <p>{sm_des}</p> */}
                             </div>
                         </div>
-                        <div className="col-xl-6 col-lg-4">
+                        <div className="col-xl-4 col-lg-6">
                             <div className="section-link text-left text-lg-right mb-30">
                                 <a href="/pipeline" className="btn btn-soft-border">Learn More</a>
                             </div>
@@ -134,7 +134,7 @@ const CoreFeaturesHomeThree = ({style} : any) => {
                         )}
                     </div> */}
                 </div>
-                <div className="col-xl-6 offset-3 text-center">
+                <div className="col-xl-6 offset-xl-3 col-l-4 col-m-4 text-center">
                      <p className="pipe-p">{sm_des}</p>
                 </div>
             </section>

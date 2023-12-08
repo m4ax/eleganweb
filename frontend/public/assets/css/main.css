@@ -2531,6 +2531,7 @@ ul.adress li span {
 	display: block;
 	overflow: hidden;
 }
+
 .make-business ul li::before {
 	color: #fff;
 	font-size: 19px;
@@ -2612,7 +2613,10 @@ a.btn.btn-subscriptin i {
 /* Integrations area */
 .Integrations-area {
 	position: relative;
+	background-color: theme-bg;
 }
+
+
 .Integrations-area-bg {
 	background: url('../img/bg/intag.jpg');
 	background: url('../img/bg/intag.jpg');

@@ -26,14 +26,13 @@ const integrations_data: integrations_data_type[] = [
 const IntegrationsHomeThree = () => {
     return (
         <>
-            <section className="integrations-area pt-110 pb-60" style={{backgroundImage: `url(/assets/img/bg/intag.jpg)`}}>
+            <section className="integrations-area pt-110 pb-60" style={{backgroundImage: `url(/assets/img/bg/makebg.jpg)`}}>
                   <div className="container">
                     <div className="row">
                       <div className="col-xl-6 offset-xl-3">
                             <div className="faq-wrapper mb-30">
                                 <div className="section-title section-title-white text-center mb-100">
                                      <h2>Integrations</h2>
-                                      <p>Just some of the integrations we offer. </p>
                                 </div>
                             </div>
                         </div>

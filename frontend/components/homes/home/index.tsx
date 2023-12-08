@@ -28,11 +28,11 @@ const HomeOne = () => {
         <TestimonailHomeOne />
         <CoreFeaturesHomeThree />
         <PipelinePunch />
-        <IntegrationsHomeThree />
         <MakeBusinessHomeTwo />
         <Secruity />
         
         <Uploader />
+        <IntegrationsHomeThree />
 
         {/* <SimpleSeamless line1="It's Simple" line2="It's Seamless" /> */}
         {/* <PricingHomeOne /> */}
