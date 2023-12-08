@@ -7,14 +7,18 @@ import HeaderOne from '../layout/headers/header';
 import SimpleSeamless from '../homes/home/SimpleSeamless'
 import Try from './Try'
 import HeroText from './herotext'
+import HeroHomeTwo from '../homes/home-2/HeroHomeTwo';
+import ImporterGood from '../about/ImporterGood';
 
 const Hosting = () => {
     return (
         <>
             <HeaderOne />
             <main>
-                <Breadcrumb  top_title="Data Importer" title="Onboarding Solutions" />
+                {/* <Breadcrumb  top_title="Data Importer" title="Onboarding Solutions" /> */}
                 {/* <Punchline line1="" line2="" /> */}
+                <HeroHomeTwo />
+                <ImporterGood />
                 <HeroText />
                 <Try />
                 <SubscriptinHomeThree />

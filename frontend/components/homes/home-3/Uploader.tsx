@@ -89,7 +89,7 @@ interface core_features_content_type {
 }
 const core_features_content: core_features_content_type = {
     title: "Why Choose Us",
-    title_2: "Introducing Uploader",
+    title_2: "With Uploader",
     sm_des: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 }
 const {title, title_2, sm_des} = core_features_content

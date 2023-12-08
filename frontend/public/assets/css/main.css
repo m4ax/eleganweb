@@ -2971,6 +2971,12 @@ p.privacy-color {
 	background-size: cover;
 	background-position: center center;
 }
+
+.para-size {
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 .about-wrapper {
 	background: #fff;
 	padding: 80px 70px;

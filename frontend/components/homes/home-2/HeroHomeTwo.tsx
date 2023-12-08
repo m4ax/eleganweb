@@ -11,9 +11,9 @@ interface hero_content_type {
 }
 const hero_content: hero_content_type = {
     bg_img: "/assets/img/slider/serviebg.jpg",
-    sub_title: "Isometric Hosting",
-    title: "Simple, Affordable Hosting Backed By Expert Support.",
-    price: 64,
+    sub_title: "Data Importer",
+    title: "Streamlined Data Import with AI Enhanced Efficiency",
+    price: 240,
     offer: 30,
 }
 const {bg_img, sub_title, title, price, offer} = hero_content
@@ -34,15 +34,11 @@ const HeroHomeTwo = () => {
                                             <div className="row">
                                                 <div className="col-xl-2 col-lg-2 col-md-3">
                                                     <div className="single-offer mb-30">
-                                                       <span>As low as</span>
-                                                        <h3>${price}/Yr</h3>
+                                                       <span>Starting at</span>
+                                                        <h3>£{price}/Mo</h3>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-3 col-lg-3 col-md-3">
-                                                    <div className="single-offer pl-65 mb-30">
-                                                       <span>Get offer</span>
-                                                        <h3>-{offer}%</h3>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
