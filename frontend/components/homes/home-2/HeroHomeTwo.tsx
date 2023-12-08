@@ -12,7 +12,7 @@ interface hero_content_type {
 const hero_content: hero_content_type = {
     bg_img: "/assets/img/slider/serviebg.jpg",
     sub_title: "Data Importer",
-    title: "Streamlined Data Import with AI Enhanced Efficiency",
+    title: "Client Data Onboarding with AI Enhanced Efficiency",
     price: 240,
     offer: 30,
 }

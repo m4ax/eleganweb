@@ -15,7 +15,6 @@ const About = () => {
             <HeaderOne />
             <main>
                 <Breadcrumb top_title="About Us"  title='About' />
-
                 <AboutUsArea />
                 <CoreFeaturesHomeThree style={true} />
                 <OurTeam />
