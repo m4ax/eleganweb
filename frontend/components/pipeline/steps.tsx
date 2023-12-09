@@ -25,7 +25,7 @@ const AboutUsArea: React.FC<Props> = (props) => {
                                     <h3>{sub_title}</h3>
                                     <h2>{title}</h2>
                                     <h4>{title_2}</h4>
-                                    <p>{sm_des}</p>
+                                    <p style={{fontSize:"18px"}}>{sm_des}</p>
                                     {/* <a href="https://calendly.com/elegan/discover" target="_blank">
                                     <div className="btn btn-2 mt-10" >Get Started Now</div>
                                     </a> */}
@@ -50,7 +50,7 @@ const AboutUsArea: React.FC<Props> = (props) => {
                                 <h3>{sub_title}</h3>
                                 <h2>{title}</h2>
                                 <h4>{title_2}</h4>
-                                <p>{sm_des}</p>
+                                <p style={{fontSize:"18px"}}>{sm_des}</p>
                                 {/* <a href="https://calendly.com/elegan/discover" target="_blank">
                                 <div className="btn btn-2 mt-10">Get Started Now</div>
                                 </a> */}

@@ -7,6 +7,11 @@ import Punchline from '../homes/home/Punchline';
 import BenefitsPipeline from './benefitsPipeline';
 import Showcase from  './Showcase';
 import Steps from './steps';
+import HeroHomeThree from '../../components/homes/home-3/HeroHomeThree';
+import PipelineHero from '../../components/homes/home/PipelineHero';
+import PipelineTitle from './PipelineTitle';
+import StepsPipeline from './StepsPipeline';
+import CoreFeaturesHomeTwo from '../homes/home-2/CoreFeaturesHomeTwo';
 
 export interface about_content_type {
     sub_title: string;
@@ -27,41 +32,41 @@ export interface about_content_type {
 
 const step1:about_content_type = {
     sub_title: "Step 1",
-    title: "Connect your data source.",
-    sm_des: "No need to worry about format, struture or size. We can handle it. This will be a seamless process. You can also sync an import with a schedule. ",
-    title_2: "We accept all major importers.",
+    title: "Connect",
+    sm_des: "Pipeline revolutionizes database connectivity. With just a few clicks, users can effortlessly link their input and output databases. Our platform’s intuitive design ensures a hassle-free setup, enabling smooth data flows between systems. This seamless integration is key for businesses looking to synchronize their data across multiple platforms, making complex data transformation tasks manageable and user-friendly.",
+    title_2: "Direct Database Integration",
     position: "left"
     }
 
 const step2:about_content_type = {
     sub_title: "Step 2",
-    title: "We'll do the heavy lifting.",
-    sm_des: "Elegan AI will automatically fix, map and transform your data. This will be based on your destination schema, the data being processed and historical data. ",
-    title_2: "AI intelligiently transforms your data.",
+    title: "Auto Clean, Map & Fix",
+    sm_des: "By eliminating the need for manual data cleansing and mapping, Pipeline significantly enhances data accuracy and efficiency. This automation is particularly proficient in handling large datasets, where manual processing is time-consuming and prone to errors.",
+    title_2: "Automated Data Processing.",
     position: "right"
     }
 
 const step3:about_content_type = {
     sub_title: "Step 3",
     title: "AI Suggestions.",
-    sm_des: "It is impossible to get everything right. However, for the last mile of data transformation, we'll suggest various manipulations, sorted based on their probability. You just accept or decline. No coding knowledge required.",
-    title_2: "For ambiguous data - we'll recommend suggestions for your approval.",
+    sm_des: "Utilise AI with our intelligent suggestions feature. When dealing with ambiguous or incomplete data, our AI algorithms provide smart, context-aware suggestions. These insights are invaluable in decision-making processes, offering users guidance on how to best handle their data. This AI-driven approach not only accelerates data processing but also ensures that the data you work with is as informative and accurate as possible.",
+    title_2: "Intelligent Data Insights",
     position: "left"
     }
 
 const step4:about_content_type = {
     sub_title: "Step 4",
     title: "Verification.",
-    sm_des: "We'll estimate the ratio of accurate to inacurrate data, and suggest whether you should do deep verification. This consists of ensuring things like email, phone and addresses are accurate and not fake. This service is optional.",
-    title_2: "It's good to know your data is quality.",
+    sm_des: "Pipeline ensures the utmost data integrity with its comprehensive verification process, tailored for businesses handling sensitive information. Our system performs detailed scans to validate data against rigorous standards, confirming accuracy and reliability. For added precision, we offer an add-on service for personal data verification, including email, phone numbers, identification documents, banking details, UUIDs, IP addresses and more. This service is essential for maintaining data quality and adherence to regulatory compliance, providing businesses with the assurance that their data upholds the strictest verification criteria",
+    title_2: "Enhanced Verification Services.",
     position: "right"
     }
 
 const step5:about_content_type = {
     sub_title: "Step 5",
     title: "Export & Schedule.",
-    sm_des: "Your data has been transformed, validated and migrated. With no code. You can opt to schedule this migration for consistent data flows, or if you want to incorparte ourservices into your pipeline.",
-    title_2: "Sync outbound data to your preferred connection.",
+    sm_des: "Optimize your workflows with Pipeline's data export scheduler. Automate your exports to sync with your business's operational timeline, eliminating manual processes. This tool ensures that your data is processed and ready for use on schedule, supporting continuous data analysis, reporting, and system updates. It's an essential feature for any business looking to maintain a steady stream of current and actionable data.",
+    title_2: "Scheduled Data Exports.",
     position: "left"
     }
 
@@ -71,16 +76,20 @@ const Pipeline = () => {
         <>
             <HeaderOne />
             <main>
-                <Breadcrumb  top_title="Data Pipeline" title="Migration Solutions" />
-                <Punchline line1="Simplified Migration Solutions" line2=""/>
-                <Showcase />        
-                <Punchline line1="We make it easy" line2="To migrate large volumes of data"/>               
-                <Steps data={step1} />
-                <Steps data={step2} />  
+                <PipelineHero />
+                <PipelineTitle line1="Simplified Migration Solutions" line2=""/>
+                <Showcase />   
+                <StepsPipeline />     
+                {/* <Punchline line1="We make it easy" line2="To migrate large volumes of data"/>   */}
+            {/* <Steps data={step1} />
+            <Steps data={step2} />
+
+
                 <Steps data={step3} />
-                <Steps data={step4} />
-                <Steps data={step5} />
-                <BenefitsPipeline />
+                <Steps data={step4} /> */}
+                {/* <Steps data={step5} /> */}
+                {/* <BenefitsPipeline /> */}
+                <CoreFeaturesHomeTwo />
                 <Punchline line1="Like what you see?" line2="Let's have a chat." />
             </main>
             <FooterOne />

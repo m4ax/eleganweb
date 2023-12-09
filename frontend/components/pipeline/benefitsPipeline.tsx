@@ -61,22 +61,22 @@ import service_img_5 from "../../public/assets/img/icon/s05.png";
 const BenefitsPipeline = () => { 
     return (
         <>
-            <section className="services-area pt-115 pb-95">
+            <section className="services-area pt-20 pb-95">
                 <div className="container">
-                    <div className="row align-items-center mb-40">
+                    {/* <div className="row align-items-center mb-40">
                         <div className="col-12">
                             <div className="section-title text-center mb-30">
                                 <h2>{title}</h2>
                                 {/* <p>{sub_title}</p> */}
-                            </div>
-                        </div>
+                            {/* </div>
+                        </div> */} 
                         
                         {/* <div className="col-xl-6 col-lg-4">
                             <div className="section-link text-left text-lg-right mb-30">
                                 <a href="#" className="btn btn-soft-border">Learn More</a>
                             </div>
                         </div> */}
-                    </div>
+                    {/* </div> */}
 
                     <div className="row pt-50">
                         {services_data.map((item, i) => 
@@ -87,7 +87,7 @@ const BenefitsPipeline = () => {
                                     </div>
                                     <div className="services-content">
                                         <h3>{item.title}</h3>
-                                        {/* <p>{item.sm_des}</p> */}
+                                        <p>{item.sm_des}</p>
                                     </div>
                                 </div>
                             </div>                        

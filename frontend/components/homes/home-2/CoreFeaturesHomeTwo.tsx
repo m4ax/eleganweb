@@ -8,31 +8,23 @@ interface features_content_type {
     sub_title: string;
 }
 const features_content:features_content_type = {
-    title: "It's Simple",
-    sub_title: "Borem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+    title: "Advanced Data Management Capabilities",
+    sub_title: "Pipeline offers a comprehensive suite of tools for efficient data management and transformation. With features like API data ingestion, automated csv column mapping, and no-code data pipeline functionality, it addresses the core needs of modern data migration. Pipeline supports businesses in handling large-scale data ingestion, providing seamless ETL workflows, and ensuring data integrity through automated cleansing and validation processes. Its user-friendly interface and scalable solutions make it suitable for a range of applications, from legacy system migration to cloud-based data transformation."
 }
 const {title, sub_title} =  features_content
 
 const CoreFeaturesHomeTwo = () => {
     return (
         <>
-            <section className="core-features-area white-bg pt-115 pb-60">
+            <section className="core-features-area gray-bg pt-115 pb-60">
                 <div className="container">
                     <div className="row align-items-center mb-40">
-                        <div>
-                            <div className="section-title text-center mb-40">
-                                <h2>{title}</h2>
-                                {/* <p>{sub_title}</p> */}
-                            </div>
-                            <div className="section-title text-center mb-150">
-                            <h2>It's Seamless</h2>
+                        <div className="col-xl-12 col-lg-12">
+                            <div className="section-title mb-30 text-center mx-auto">
+                                <h2 className="pb-40">{title}</h2>
+                                <p>{sub_title}</p>
                             </div>
                         </div>
-                        {/* <div className="col-xl-6 col-lg-4">
-                            <div className="section-link text-left text-lg-right mb-30">
-                                <Link href="#" className="btn btn-soft-border">Learn More</Link>
-                            </div>
-                        </div> */}
                     </div>
                     <div className="row">
                         {core_features_data.map((item, i) => 
@@ -43,7 +35,7 @@ const CoreFeaturesHomeTwo = () => {
                                     </div>
                                     <div className="services-content core-features-content">
                                         <h4>{item.title}</h4>
-                                        <h6 className="sub">{item.sm_des}</h6>
+                                        <p>{item.sm_des}</p>
                                     </div>
                                 </div>
                             </div>                        

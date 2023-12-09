@@ -15,9 +15,9 @@ const {sub_title, title} = hero_three_content
 const HeroHomeThree = () => {
     return (
         <>
-           <section className="slider-area position-relative">
+           <section className="slider-area position-relative theme-bg">
                 <div className="slider-acs">
-                    <div className="single-slider hero-slider d-flex align-items-center pt-130">
+                    <div className="single-slider hero-slider d-flex align-items-center pt-130" >
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-7 col-lg-7">
