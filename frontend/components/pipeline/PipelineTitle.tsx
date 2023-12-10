@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import core_features_data from "../../data/core-features-data";
 
 
 interface title_content_type {
