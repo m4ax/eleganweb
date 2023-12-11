@@ -29,9 +29,9 @@ const HeroText = () => {
                             <div className="col-sm">
                                 <div className="about-wrapper wow fadeIn" data-wow-delay="0.3s">
                                 <div className="section-title">
-                                    <h3>{sub_title}</h3>
-                                    <h2>{title}</h2>
-                                    <h4>{title_2}</h4>
+                                    <h3 className="mb-30">{sub_title}</h3>
+                                    <h2 >{title}</h2>
+                                    <h4 className="mt-30">{title_2}</h4>
                                     <p className="para-size">{sm_des}</p>
                                     <a href="https://calendly.com/elegan/discover" target="_blank">
                                     <div className="btn btn-2 mt-10" >Get Started Now</div>
@@ -48,9 +48,9 @@ const HeroText = () => {
                         <div className="col-sm">
                             <div className="about-wrapper mb-50 wow fadeIn" data-wow-delay="0.3s">
                             <div className="section-title">
-                                <h3>{about_content2.sub_title}</h3>
+                                <h3 className="mb-30">{about_content2.sub_title}</h3>
                                 <h2>{about_content2.title}</h2>
-                                <h4>{about_content2.title_2}</h4>
+                                <h4 className="mt-30">{about_content2.title_2}</h4>
                                 <p className="para-size">{about_content2.sm_des}</p>
                                 <div className="btn btn-2 mt-10">Get Started Now</div>
                             </div>
