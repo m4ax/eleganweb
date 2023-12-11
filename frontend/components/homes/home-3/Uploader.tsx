@@ -103,7 +103,7 @@ const Uploader = ({style} : any) => {
                         <div className="col-xl-8 col-lg-8">
                             <div className="section-title mb-50">
 
-                                <h1>{style ? title : title_2}</h1>
+                                <h2>{style ? title : title_2}</h2>
                                 {/* <p>{sm_des}</p> */}
                             </div>
                         </div>
