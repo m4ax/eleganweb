@@ -128,8 +128,8 @@ const CoreFeaturesHomeThree = ({style} : any) => {
                                     <div className="services-icon mb-35 " style={{ textAlign: 'center' }}>
                                         <Image src={item.icon} alt="icon-for-data-migration" />
                                     </div>
-                                    <div className="services-content service-content-three  ">
-                                        <h4>{item.title}</h4>
+                                    <div className="services-content service-content-3 ">
+                                        <h4 className="mb-25">{item.title}</h4>
                                         <ul>
                                             {item.features.map((feature, index ) => <li key={index}>{feature}</li>)} 
                                         </ul>
