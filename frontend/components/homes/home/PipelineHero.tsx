@@ -30,7 +30,7 @@ const PipelineHero = () => {
                                 <div className="col-xl-7">
                                     <div className="slider-text slider-text-2">
                                         <span className="d-block wow fadeInUp animated" data-wow-delay="0.3s">{sub_title}</span>
-                                        <h2 className="wow fadeInUp animated" data-wow-delay="0.6s">{title}</h2>
+                                        <h1 className="wow fadeInUp animated" data-wow-delay="0.6s">{title}</h1>
                                         <div className="slider-text-offer wow fadeInUp animated" data-wow-delay="0.9s">
                                             <div className="row">
                                                 <div className="col-xl-2 col-lg-2 col-md-3">

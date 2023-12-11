@@ -56,7 +56,7 @@ const footer_content: footer_content_type ={
     sub_title: "Get an easy quote",
     title: "Book a Quick Call with an Expert.",
     price_title: "Starting At Only",
-    price: "0.00003",
+    price: "240",
     info_us: "We facilitate seamless data migration for transferring large volumes of CSV, JSON, and SQL data, tailored to meet the needs of SaaS providers, enterprises, and SMBs",
     address: "Hatherley Court, Cheltenham, GL51 3AQ",
     mail :"info@elegan.io",
@@ -84,7 +84,7 @@ const FooterOne = () => {
                             <div className="col-xl-3 col-md-5 col-lg-3">
                                 <div className="footer-left-info mb-30">
                                     <h5>{price_title}</h5>
-                                    <h2>£{price}<span>/record*</span></h2>
+                                    <h2>£{price}<span>/month</span></h2>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-md-7 col-lg-3">
