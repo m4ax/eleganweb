@@ -47,7 +47,7 @@ const PipelineHero = () => {
                                 </div>
                                 <div className="col-xl-5 d-none d-xl-block">
                                    <div className="slider-bottom-imgs wow fadeInRight animated" data-wow-delay="1.3s">
-                                      <Image src={hosting_bg} alt="elegan-data-migration" />
+                                      <Image src={hosting_bg} alt="Data Migration" />
                                     </div>
                                 </div>
                             </div>

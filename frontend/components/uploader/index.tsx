@@ -20,7 +20,7 @@ const Hosting = () => {
                 <HeroHomeTwo />
                 <ImporterGood />
                 <HeroText />
-                <Try />
+                {/* <Try /> */}
                 <SubscriptinHomeThree />
                 <SimpleSeamless line1="Wow your clients with migration ease." line2="" />
                 {/* <PriceArea /> */}

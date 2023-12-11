@@ -109,13 +109,13 @@ const Uploader = ({style} : any) => {
                         </div>
                         <div className="col-xl-4 col-lg-4">
                             <div className="section-link text-left text-lg-right mb-30">
-                                <a href="/uploader" target="_blank" className="btn btn-soft-border">Learn More</a>
+                                <a href="/uploader" className="btn btn-soft-border">Learn More</a>
                             </div>
                         </div>
                     </div>
-                    <div className="mb-100">
+                    {/* <div className="mb-100">
                     <Image src={product1} className="img-fluid mb-100" alt="AI Data Cleaning Tool Screenshot"/>
-                    </div>
+                    </div> */}
                 </div>
                     <SubscriptinHomeThree />
             </section>
